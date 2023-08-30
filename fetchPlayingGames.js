@@ -16,12 +16,16 @@ async function getTodaysMatches() {
     const result = await page.evaluate(() => {
         const todayDateString = new Date().toDateString();
 
+        let matchDate = ''; // Declare the variable to store the date from the ESPN website.
+        
         const sections = document.querySelectorAll('.Table__Title');
         let data = [];
         sections.forEach(section => {
             const dateStr = section.textContent || "";
             const parsedDate = new Date(dateStr);
             if (parsedDate.toDateString() === todayDateString) {
+                matchDate = dateStr; // Assign the date from the ESPN website to matchDate variable.
+
                 const rows = section.parentElement.querySelectorAll('.Table__TR--sm');
                 rows.forEach(row => {
                     const awayTeamElement = row.querySelector('.Table__Team.away a.AnchorLink');
@@ -36,7 +40,8 @@ async function getTodaysMatches() {
                             awayTeamLogo: awayTeamLogo.src,
                             homeTeamUrl: homeTeamElement.href,
                             homeTeamLogo: homeTeamLogo.src,
-                            matchLink: matchLinkElement.href
+                            matchLink: matchLinkElement.href,
+                            date: matchDate // Include date for each match.
                         });
                     }
                 });
@@ -58,6 +63,7 @@ async function getTodaysMatches() {
 
         // Add to matchUps array
         matchUps.push({
+            date: r.date, // Include date in matchUps object.
             awayTeam: {
                 code: awayTeamCode,
                 name: awayTeamName,

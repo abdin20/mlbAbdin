@@ -170,7 +170,7 @@
   </head>
 
   <body>
-    <h1>Matches Today</h1>
+    <h1 id="dateHeader">Matches Today</h1>
     <div id="todaysMatches"></div>
 
     <div class="container">
@@ -224,7 +224,11 @@
       async function displayTodaysMatches() {
         const response = await fetch("matchUps.json");
         const matchUps = await response.json();
-
+        if (matchUps.length > 0 && matchUps[0].date) {
+          document.getElementById(
+            "dateHeader"
+          ).textContent = `Matches for ${matchUps[0].date}`;
+        }
         for (const match of matchUps) {
           document.getElementById("todaysMatches").innerHTML += `
 
