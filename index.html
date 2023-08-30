@@ -7,7 +7,7 @@
     <style>
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        margin: 1px;
+        margin: 20px;
         background-color: #f5f5f5;
       }
 
@@ -20,22 +20,57 @@
       #todaysMatches {
         display: flex;
         flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
       }
+
       .match {
-        padding: 15px;
-        background-color: white;
-        border-radius: 8px;
-        flex: 1 0 calc(33% - 15px); /* Divided the width by 6 to fit 6 matches in one row */
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        flex: 1 0 calc(33% - 30px);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         text-align: center;
-        cursor: pointer;
-        margin: 8px 1.5%; /* Added margin to give space between matches */
+        margin: 15px;
+        border: 1px solid #e4e4e4;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
+      .match:hover {
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        transform: translateY(-3px);
+      }
+
+      .match a {
+        text-decoration: none;
+        color: #333;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .vs-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin: 0 20px;
+      }
+      .vs-text {
+        background-color: #f2f2f2;
+        padding: 5px 15px;
+        margin: 5px;
+        border-radius: 50px;
+        color: #555;
+      }
+
       .match img {
-        width: 45px;
-        height: 45px;
+        width: 60px;
+        height: 60px;
         border-radius: 50%;
-        margin: 0 8px;
+        margin: 0 10px;
       }
       #hotStreakPlayers,
       #highDuePlayers {
@@ -87,14 +122,48 @@
         flex: 1;
         margin: 0 10px;
       }
+      .section-header {
+        cursor: pointer;
+      }
+      .arrow {
+        display: inline-block;
+        transition: transform 0.3s ease;
+      }
       @media (max-width: 768px) {
         .container {
           flex-direction: column;
+        }
+
+        .player {
+          display: block;
         }
         #hotStreakPlayers,
         #highDuePlayers {
           width: 90%;
           margin: 5px 0;
+        }
+
+        #todaysMatches {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .match {
+          flex: 1 0 100%; /* Take 90% of the width */
+          margin: 10px -20px 0%;
+          padding: 10px;
+          font-size: 0.78em; /* You can adjust this if it's still too big */
+        }
+
+        .match img {
+          width: 40px;
+          height: 40px;
+          margin: 0 5px;
+        }
+
+        .vs-text {
+          padding: 3px 10px;
+          margin: 3px;
         }
       }
     </style>
@@ -106,14 +175,52 @@
 
     <div class="container">
       <section id="hotStreakPlayers">
-        <h1>Hot Streak Players</h1>
+        <h1 class="section-header">
+          Hot Streak Players
+          <span class="arrow hotStreakArrow" style="transform: rotate(90deg)"
+            >&#9654;</span
+          >
+        </h1>
       </section>
 
       <section id="highDuePlayers">
-        <h1>High Due Players</h1>
+        <h1 class="section-header">
+          High Due Players
+          <span class="arrow highDueArrow" style="transform: rotate(90deg)"
+            >&#9654;</span
+          >
+        </h1>
       </section>
     </div>
     <script>
+      function setupPlayerToggle(className) {
+        const sectionHeaders = document.querySelectorAll(".section-header");
+        sectionHeaders.forEach((header) => {
+          header.addEventListener("click", function () {
+            const arrow = this.querySelector(`.${className}Arrow`);
+            const playerContainer = this.parentElement;
+            const players = playerContainer.querySelectorAll(`.${className}`);
+            let isHidden = false;
+
+            // Toggle the display of the player divs
+            players.forEach((player) => {
+              if (player.style.display === "none") {
+                player.style.display = "block";
+              } else {
+                player.style.display = "none";
+                isHidden = true;
+              }
+            });
+
+            // Rotate the arrow based on the section's status
+            if (isHidden) {
+              arrow.style.transform = "rotate(0deg)";
+            } else {
+              arrow.style.transform = "rotate(90deg)";
+            }
+          });
+        });
+      }
       async function displayTodaysMatches() {
         const response = await fetch("matchUps.json");
         const matchUps = await response.json();
@@ -121,16 +228,17 @@
         for (const match of matchUps) {
           document.getElementById("todaysMatches").innerHTML += `
 
-            <div class="match">
-              <a id="specialLink" href="${match.matchLink}">
-                <div>
-                <img src="${match.awayTeam.logoUrl}" alt="${match.awayTeam.name}">
-                ${match.awayTeam.name} (Away) VS 
-                <img src="${match.homeTeam.logoUrl}" alt="${match.homeTeam.name}">
-                ${match.homeTeam.name} (Home)
-                </div>
-              </a>
+          <div class="match">
+            <a id="specialLink" href="${match.matchLink}">
+              <img src="${match.awayTeam.logoUrl}" alt="${match.awayTeam.name}">
+              <div class="vs-container">
+                <span>${match.awayTeam.name} (Away)</span>
+                <span class="vs-text">VS</span>
+                <span>${match.homeTeam.name} (Home)</span>
             </div>
+            <img src="${match.homeTeam.logoUrl}" alt="${match.homeTeam.name}">
+           </a>
+       </div>  
         
         `;
         }
@@ -178,7 +286,7 @@
               matchUps
             );
             document.getElementById("hotStreakPlayers").innerHTML += `
-                <div class="player">
+                <div class="player hotStreak" style="display: block;">
                   <h2>  <a href="${player.url}" target="_blank">${
               player.name
             }</a></h2>
@@ -202,6 +310,7 @@
                 </div>
             `;
           }
+          setupPlayerToggle("hotStreak");
         });
 
       fetch("high_due_factor_players.json")
@@ -218,7 +327,7 @@
               matchUps
             );
             document.getElementById("highDuePlayers").innerHTML += `
-                  <div class="player">
+                  <div class="player highDue" style="display: block;">
                   <h2>  <a href="${player.url}" target="_blank">${
               player.name
             }</a></h2>
@@ -241,6 +350,7 @@
                 </div>
             `;
           }
+          setupPlayerToggle("highDue");
         });
     </script>
   </body>
