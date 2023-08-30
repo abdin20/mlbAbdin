@@ -7,7 +7,7 @@
     <style>
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        margin: 40px;
+        margin: 1px;
         background-color: #f5f5f5;
       }
 
@@ -86,6 +86,16 @@
       #highDuePlayers {
         flex: 1;
         margin: 0 10px;
+      }
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+        #hotStreakPlayers,
+        #highDuePlayers {
+          width: 90%;
+          margin: 5px 0;
+        }
       }
     </style>
   </head>
@@ -177,15 +187,15 @@
             } (${opponentData.position}) vs ${opponentData.opponent}</a></h3>
              
                     <p>Recent Hits: ${player.recentHits.join(", ")}</p>
-                    <p>% Continue 2 Hit Streak : ${
-                      player["Continue 2 Hit Streak %"].toFixed(2)
-                    }%</p>
+                    <p>% Continue 2 Hit Streak : ${player[
+                      "Continue 2 Hit Streak %"
+                    ].toFixed(2)}%</p>
                     <p>2 hit streak occurrences: ${
                       player["2 hit streak occcurences"]
                     }</p>
-                    <p>% Continue 3 Hit Streak: ${
-                      player["Continue 3 Hit Streak %"].toFixed(2)
-                    }%</p>
+                    <p>% Continue 3 Hit Streak: ${player[
+                      "Continue 3 Hit Streak %"
+                    ].toFixed(2)}%</p>
                     <p>3 hit streak occurrences: ${
                       player["3 hit streak occcurences"]
                     }</p>
@@ -216,15 +226,15 @@
               teams[player.Team]
             } (${opponentData.position}) vs ${opponentData.opponent}</a></h3>
             <p>Recent Hits: ${player.recentHits.join(", ")}</p>
-                    <p>% Chance to Hit after 2 no hitters: ${
-                      player.dueFactor2.toFixed(2)
-                    }%</p>
+                    <p>% Chance to Hit after 2 no hitters: ${player.dueFactor2.toFixed(
+                      2
+                    )}%</p>
                     <p>Occurrences with 2 no hitters: ${
                       player["Occurences with 2 no hitters"]
                     }</p>
-                    <p>% Chance to Hit after 3 no hitters: ${
-                      player.dueFactor3.toFixed(2)
-                    }%</p>
+                    <p>% Chance to Hit after 3 no hitters: ${player.dueFactor3.toFixed(
+                      2
+                    )}%</p>
                     <p>Occurrences with 3 no hitters: ${
                       player["Occurences with 3 no hitters"]
                     }</p>
