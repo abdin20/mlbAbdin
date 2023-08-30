@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baseball Player Data</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 40px;
+        background-color: #f5f5f5;
+      }
+
+      h1 {
+        color: #333;
+        border-bottom: 2px solid #666;
+        padding-bottom: 10px;
+      }
+
+      #todaysMatches {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .match {
+        padding: 15px;
+        background-color: white;
+        border-radius: 8px;
+        flex: 1 0 calc(33% - 15px); /* Divided the width by 6 to fit 6 matches in one row */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        cursor: pointer;
+        margin: 8px 1.5%; /* Added margin to give space between matches */
+      }
+      .match img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        margin: 0 8px;
+      }
+      #hotStreakPlayers,
+      #highDuePlayers {
+        display: inline-block;
+        vertical-align: top;
+        width: 48%;
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .player {
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+      }
+
+      .player h2 {
+        margin-top: 0;
+        color: #444;
+      }
+
+      .player a {
+        display: block;
+        margin-bottom: 10px;
+        color: #0066cc;
+        text-decoration: none;
+      }
+
+      .player a:hover {
+        text-decoration: underline;
+      }
+
+      .player p {
+        color: #555;
+      }
+      .container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+      }
+
+      #hotStreakPlayers,
+      #highDuePlayers {
+        flex: 1;
+        margin: 0 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Matches Today</h1>
+    <div id="todaysMatches"></div>
+
+    <div class="container">
+      <section id="hotStreakPlayers">
+        <h1>Hot Streak Players</h1>
+      </section>
+
+      <section id="highDuePlayers">
+        <h1>High Due Players</h1>
+      </section>
+    </div>
+    <script>
+      async function displayTodaysMatches() {
+        const response = await fetch("matchUps.json");
+        const matchUps = await response.json();
+
+        for (const match of matchUps) {
+          document.getElementById("todaysMatches").innerHTML += `
+
+            <div class="match">
+              <a id="specialLink" href="${match.matchLink}">
+                <div>
+                <img src="${match.awayTeam.logoUrl}" alt="${match.awayTeam.name}">
+                ${match.awayTeam.name} (Away) VS 
+                <img src="${match.homeTeam.logoUrl}" alt="${match.homeTeam.name}">
+                ${match.homeTeam.name} (Home)
+                </div>
+              </a>
+            </div>
+        
+        `;
+        }
+      }
+      displayTodaysMatches();
+      async function getOpponentForTeam(teamName, matchUps) {
+        for (const match of matchUps) {
+          if (match.awayTeam.name === teamName) {
+            return {
+              opponent: match.homeTeam.name,
+              position: "Away",
+              matchLink: match.matchLink,
+            };
+          } else if (match.homeTeam.name === teamName) {
+            return {
+              opponent: match.awayTeam.name,
+              position: "Home",
+              matchLink: match.matchLink,
+            };
+          }
+        }
+        return null; // or a default value
+      }
+      async function getTeamNames(teamsJSONUrl) {
+        const teamsResponse = await fetch(teamsJSONUrl);
+        return await teamsResponse.json();
+      }
+
+      async function filterPlayersByTeam(playerData, teams) {
+        return playerData.filter((player) => teams[player.Team]);
+      }
+
+      fetch("hot_streak_factor_players.json")
+        .then((response) => response.json())
+        .then(async (data) => {
+          const teams = await getTeamNames("teams.json");
+          const matchUps = await fetch("matchUps.json").then((res) =>
+            res.json()
+          );
+          const filteredPlayers = await filterPlayersByTeam(data, teams);
+
+          for (const player of filteredPlayers) {
+            const opponentData = await getOpponentForTeam(
+              teams[player.Team],
+              matchUps
+            );
+            document.getElementById("hotStreakPlayers").innerHTML += `
+                <div class="player">
+                  <h2>  <a href="${player.url}" target="_blank">${
+              player.name
+            }</a></h2>
+                    <h3><a href="${opponentData.matchLink}">${
+              teams[player.Team]
+            } (${opponentData.position}) vs ${opponentData.opponent}</a></h3>
+             
+                    <p>Recent Hits: ${player.recentHits.join(", ")}</p>
+                    <p>% Continue 2 Hit Streak : ${
+                      player["Continue 2 Hit Streak %"].toFixed(2)
+                    }%</p>
+                    <p>2 hit streak occurrences: ${
+                      player["2 hit streak occcurences"]
+                    }</p>
+                    <p>% Continue 3 Hit Streak: ${
+                      player["Continue 3 Hit Streak %"].toFixed(2)
+                    }%</p>
+                    <p>3 hit streak occurrences: ${
+                      player["3 hit streak occcurences"]
+                    }</p>
+                </div>
+            `;
+          }
+        });
+
+      fetch("high_due_factor_players.json")
+        .then((response) => response.json())
+        .then(async (data) => {
+          const teams = await getTeamNames("teams.json");
+          const filteredPlayers = await filterPlayersByTeam(data, teams);
+          const matchUps = await fetch("matchUps.json").then((res) =>
+            res.json()
+          );
+          for (const player of filteredPlayers) {
+            const opponentData = await getOpponentForTeam(
+              teams[player.Team],
+              matchUps
+            );
+            document.getElementById("highDuePlayers").innerHTML += `
+                  <div class="player">
+                  <h2>  <a href="${player.url}" target="_blank">${
+              player.name
+            }</a></h2>
+                    <h3><a href="${opponentData.matchLink}">${
+              teams[player.Team]
+            } (${opponentData.position}) vs ${opponentData.opponent}</a></h3>
+            <p>Recent Hits: ${player.recentHits.join(", ")}</p>
+                    <p>% Chance to Hit after 2 no hitters: ${
+                      player.dueFactor2.toFixed(2)
+                    }%</p>
+                    <p>Occurrences with 2 no hitters: ${
+                      player["Occurences with 2 no hitters"]
+                    }</p>
+                    <p>% Chance to Hit after 3 no hitters: ${
+                      player.dueFactor3.toFixed(2)
+                    }%</p>
+                    <p>Occurrences with 3 no hitters: ${
+                      player["Occurences with 3 no hitters"]
+                    }</p>
+                </div>
+            `;
+          }
+        });
+    </script>
+  </body>
+</html>
