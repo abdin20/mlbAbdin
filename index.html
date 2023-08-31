@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Baseball Player Data</title>
@@ -58,8 +58,18 @@
         justify-content: center;
         font-weight: bold;
         margin: 0 20px;
+        width: 100%;
+      }
+      .team-away,
+      .team-home {
+        flex: 1; /* Both take up equal space */
+        text-align: center; /* Center team name text */
       }
       .vs-text {
+        flex-basis: 60px; /* Fixed width for the VS section */
+        justify-content: center;
+        align-items: center;
+        display: flex; /* Center the VS text horizontally and vertically */
         background-color: #f2f2f2;
         padding: 5px 15px;
         margin: 5px;
@@ -232,18 +242,17 @@
         }
         for (const match of matchUps) {
           document.getElementById("todaysMatches").innerHTML += `
-
           <div class="match">
-            <a id="specialLink" href="${match.matchLink}">
-              <img src="${match.awayTeam.logoUrl}" alt="${match.awayTeam.name}">
-              <div class="vs-container">
-                <span>${match.awayTeam.name} (Away)</span>
+        <a id="specialLink" href="${match.matchLink}">
+            <img src="${match.awayTeam.logoUrl}" alt="${match.awayTeam.name}">
+            <div class="vs-container">
+                <span class="team-away">${match.awayTeam.name} (Away)</span>
                 <span class="vs-text">VS</span>
-                <span>${match.homeTeam.name} (Home)</span>
+                <span class="team-home">${match.homeTeam.name} (Home)</span>
             </div>
             <img src="${match.homeTeam.logoUrl}" alt="${match.homeTeam.name}">
-           </a>
-       </div>  
+       </a>
+   </div> 
         
         `;
         }
