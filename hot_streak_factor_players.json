@@ -3,6 +3,7 @@
     "name": "Marcell Ozuna",
     "recentHits": [
       1,
+      1,
       2,
       2,
       1,
@@ -10,13 +11,12 @@
       1,
       3,
       3,
-      2,
-      0
+      2
     ],
-    "Continue 2 Hit Streak %": 84.48275862068965,
-    "2 hit streak occcurences": 58,
-    "Continue 3 Hit Streak %": 81.25,
-    "3 hit streak occcurences": 48,
+    "Continue 2 Hit Streak %": 84.7457627118644,
+    "2 hit streak occcurences": 59,
+    "Continue 3 Hit Streak %": 81.63265306122449,
+    "3 hit streak occcurences": 49,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/31668",
     "Team": "atl"
   },
@@ -84,29 +84,51 @@
     "Team": "tex"
   },
   {
-    "name": "Gleyber Torres",
+    "name": "Mookie Betts",
     "recentHits": [
       2,
       2,
       2,
       0,
-      0,
-      2,
+      3,
       3,
       1,
-      0,
+      2,
+      5,
       2
     ],
-    "Continue 2 Hit Streak %": 77.61194029850746,
-    "2 hit streak occcurences": 67,
-    "Continue 3 Hit Streak %": 76.92307692307693,
-    "3 hit streak occcurences": 52,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/33804",
-    "Team": "nyy"
+    "Continue 2 Hit Streak %": 79.22077922077922,
+    "2 hit streak occcurences": 77,
+    "Continue 3 Hit Streak %": 77.04918032786885,
+    "3 hit streak occcurences": 61,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/33039",
+    "Team": "lad"
+  },
+  {
+    "name": "Bryan De La Cruz",
+    "recentHits": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      2,
+      0,
+      0,
+      1,
+      1
+    ],
+    "Continue 2 Hit Streak %": 66.66666666666666,
+    "2 hit streak occcurences": 51,
+    "Continue 3 Hit Streak %": 76.47058823529412,
+    "3 hit streak occcurences": 34,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/40787",
+    "Team": "mia"
   },
   {
     "name": "Luis Arraez",
     "recentHits": [
+      2,
       1,
       1,
       1,
@@ -115,11 +137,10 @@
       1,
       1,
       1,
-      0,
-      1
+      0
     ],
-    "Continue 2 Hit Streak %": 78.2051282051282,
-    "2 hit streak occcurences": 78,
+    "Continue 2 Hit Streak %": 77.21518987341773,
+    "2 hit streak occcurences": 79,
     "Continue 3 Hit Streak %": 75.40983606557377,
     "3 hit streak occcurences": 61,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/39572",
@@ -131,16 +152,16 @@
       2,
       2,
       2,
+      2,
       0,
       1,
       0,
       2,
       0,
-      0,
-      1
+      0
     ],
-    "Continue 2 Hit Streak %": 70.76923076923077,
-    "2 hit streak occcurences": 65,
+    "Continue 2 Hit Streak %": 69.6969696969697,
+    "2 hit streak occcurences": 66,
     "Continue 3 Hit Streak %": 73.91304347826086,
     "3 hit streak occcurences": 46,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/34982",
@@ -149,6 +170,7 @@
   {
     "name": "Ronald Acuna Jr.",
     "recentHits": [
+      3,
       1,
       2,
       4,
@@ -157,11 +179,10 @@
       1,
       2,
       2,
-      2,
-      0
+      2
     ],
-    "Continue 2 Hit Streak %": 71.62162162162163,
-    "2 hit streak occcurences": 74,
+    "Continue 2 Hit Streak %": 70.66666666666667,
+    "2 hit streak occcurences": 75,
     "Continue 3 Hit Streak %": 73.58490566037736,
     "3 hit streak occcurences": 53,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/36185",
@@ -212,6 +233,7 @@
   {
     "name": "Thairo Estrada",
     "recentHits": [
+      2,
       1,
       1,
       1,
@@ -220,15 +242,35 @@
       0,
       2,
       3,
-      2,
-      1
+      2
     ],
-    "Continue 2 Hit Streak %": 75,
-    "2 hit streak occcurences": 48,
+    "Continue 2 Hit Streak %": 75.51020408163265,
+    "2 hit streak occcurences": 49,
     "Continue 3 Hit Streak %": 72.22222222222221,
     "3 hit streak occcurences": 36,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/36485",
     "Team": "sfo"
+  },
+  {
+    "name": "Jake Burger",
+    "recentHits": [
+      1,
+      1,
+      1,
+      0,
+      2,
+      1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "Continue 2 Hit Streak %": 52.94117647058824,
+    "2 hit streak occcurences": 34,
+    "Continue 3 Hit Streak %": 72.22222222222221,
+    "3 hit streak occcurences": 18,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/39882",
+    "Team": "mia"
   },
   {
     "name": "Yordan Alvarez",
@@ -336,27 +378,6 @@
     "Team": "laa"
   },
   {
-    "name": "Juan Soto",
-    "recentHits": [
-      2,
-      1,
-      1,
-      2,
-      1,
-      0,
-      1,
-      0,
-      1,
-      0
-    ],
-    "Continue 2 Hit Streak %": 60,
-    "2 hit streak occcurences": 45,
-    "Continue 3 Hit Streak %": 69.23076923076923,
-    "3 hit streak occcurences": 26,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/36969",
-    "Team": "sdg"
-  },
-  {
     "name": "Danny Jansen",
     "recentHits": [
       1,
@@ -418,27 +439,6 @@
     "3 hit streak occcurences": 47,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/33710",
     "Team": "phi"
-  },
-  {
-    "name": "Eddie Rosario",
-    "recentHits": [
-      1,
-      1,
-      1,
-      0,
-      2,
-      1,
-      4,
-      2,
-      1,
-      0
-    ],
-    "Continue 2 Hit Streak %": 66.66666666666666,
-    "2 hit streak occcurences": 42,
-    "Continue 3 Hit Streak %": 67.85714285714286,
-    "3 hit streak occcurences": 28,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/31944",
-    "Team": "atl"
   },
   {
     "name": "Jorge Soler",
@@ -506,6 +506,7 @@
   {
     "name": "Michael Harris II",
     "recentHits": [
+      2,
       1,
       3,
       2,
@@ -514,11 +515,10 @@
       3,
       1,
       0,
-      1,
-      0
+      1
     ],
-    "Continue 2 Hit Streak %": 68.18181818181817,
-    "2 hit streak occcurences": 44,
+    "Continue 2 Hit Streak %": 66.66666666666666,
+    "2 hit streak occcurences": 45,
     "Continue 3 Hit Streak %": 66.66666666666666,
     "3 hit streak occcurences": 30,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/42470",
@@ -590,6 +590,7 @@
   {
     "name": "Ha-Seong Kim",
     "recentHits": [
+      1,
       2,
       2,
       1,
@@ -598,11 +599,10 @@
       0,
       1,
       1,
-      2,
-      0
+      2
     ],
-    "Continue 2 Hit Streak %": 61.53846153846154,
-    "2 hit streak occcurences": 52,
+    "Continue 2 Hit Streak %": 60.37735849056604,
+    "2 hit streak occcurences": 53,
     "Continue 3 Hit Streak %": 65.625,
     "3 hit streak occcurences": 32,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/4089862",
@@ -630,6 +630,27 @@
     "Team": "nym"
   },
   {
+    "name": "Will Smith",
+    "recentHits": [
+      2,
+      2,
+      2,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      2
+    ],
+    "Continue 2 Hit Streak %": 62.5,
+    "2 hit streak occcurences": 40,
+    "Continue 3 Hit Streak %": 64,
+    "3 hit streak occcurences": 25,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/38309",
+    "Team": "lad"
+  },
+  {
     "name": "Wander Franco",
     "recentHits": [
       1,
@@ -649,27 +670,6 @@
     "3 hit streak occcurences": 33,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/40929",
     "Team": "tam"
-  },
-  {
-    "name": "Matt Vierling",
-    "recentHits": [
-      1,
-      1,
-      1,
-      0,
-      0,
-      0,
-      1,
-      1,
-      1,
-      0
-    ],
-    "Continue 2 Hit Streak %": 61.53846153846154,
-    "2 hit streak occcurences": 39,
-    "Continue 3 Hit Streak %": 62.5,
-    "3 hit streak occcurences": 24,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/41636",
-    "Team": "det"
   },
   {
     "name": "Triston Casas",
@@ -716,6 +716,7 @@
   {
     "name": "Fernando Tatis Jr.",
     "recentHits": [
+      2,
       1,
       1,
       2,
@@ -723,12 +724,11 @@
       1,
       2,
       1,
-      0,
       0,
       0
     ],
-    "Continue 2 Hit Streak %": 69.81132075471697,
-    "2 hit streak occcurences": 53,
+    "Continue 2 Hit Streak %": 68.51851851851852,
+    "2 hit streak occcurences": 54,
     "Continue 3 Hit Streak %": 62.16216216216216,
     "3 hit streak occcurences": 37,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/35983",
@@ -840,27 +840,6 @@
     "Team": "phi"
   },
   {
-    "name": "Orlando Arcia",
-    "recentHits": [
-      1,
-      1,
-      3,
-      1,
-      1,
-      0,
-      0,
-      0,
-      2,
-      1
-    ],
-    "Continue 2 Hit Streak %": 59.09090909090909,
-    "2 hit streak occcurences": 44,
-    "Continue 3 Hit Streak %": 60,
-    "3 hit streak occcurences": 25,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32530",
-    "Team": "atl"
-  },
-  {
     "name": "Elvis Andrus",
     "recentHits": [
       2,
@@ -903,46 +882,46 @@
     "Team": "mil"
   },
   {
-    "name": "Matt Olson",
+    "name": "Orlando Arcia",
     "recentHits": [
-      1,
       1,
       1,
       1,
       3,
       1,
-      2,
+      1,
       0,
       0,
-      0
+      0,
+      2
     ],
-    "Continue 2 Hit Streak %": 60.3448275862069,
-    "2 hit streak occcurences": 58,
-    "Continue 3 Hit Streak %": 58.82352941176471,
-    "3 hit streak occcurences": 34,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32767",
+    "Continue 2 Hit Streak %": 60,
+    "2 hit streak occcurences": 45,
+    "Continue 3 Hit Streak %": 57.692307692307686,
+    "3 hit streak occcurences": 26,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32530",
     "Team": "atl"
   },
   {
-    "name": "Joey Meneses",
+    "name": "Anthony Volpe",
     "recentHits": [
       2,
       1,
-      2,
-      2,
-      1,
-      1,
       1,
       0,
+      1,
+      2,
       0,
-      3
+      1,
+      0,
+      2
     ],
-    "Continue 2 Hit Streak %": 60.3448275862069,
-    "2 hit streak occcurences": 58,
-    "Continue 3 Hit Streak %": 58.82352941176471,
-    "3 hit streak occcurences": 34,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/34534",
-    "Team": "was"
+    "Continue 2 Hit Streak %": 44.44444444444444,
+    "2 hit streak occcurences": 36,
+    "Continue 3 Hit Streak %": 56.25,
+    "3 hit streak occcurences": 16,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/42547",
+    "Team": "nyy"
   },
   {
     "name": "Luke Raley",
@@ -1008,6 +987,27 @@
     "Team": "cle"
   },
   {
+    "name": "Max Muncy",
+    "recentHits": [
+      1,
+      2,
+      1,
+      2,
+      2,
+      1,
+      2,
+      1,
+      1,
+      1
+    ],
+    "Continue 2 Hit Streak %": 51.85185185185185,
+    "2 hit streak occcurences": 27,
+    "Continue 3 Hit Streak %": 53.84615384615385,
+    "3 hit streak occcurences": 13,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/33303",
+    "Team": "lad"
+  },
+  {
     "name": "Luis Rengifo",
     "recentHits": [
       1,
@@ -1071,71 +1071,9 @@
     "Team": "mil"
   },
   {
-    "name": "Max Muncy",
-    "recentHits": [
-      2,
-      1,
-      2,
-      2,
-      1,
-      2,
-      1,
-      1,
-      1,
-      0
-    ],
-    "Continue 2 Hit Streak %": 50,
-    "2 hit streak occcurences": 26,
-    "Continue 3 Hit Streak %": 50,
-    "3 hit streak occcurences": 12,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/33303",
-    "Team": "lad"
-  },
-  {
-    "name": "Austin Slater",
-    "recentHits": [
-      2,
-      1,
-      2,
-      0,
-      2,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "Continue 2 Hit Streak %": 50,
-    "2 hit streak occcurences": 8,
-    "Continue 3 Hit Streak %": 50,
-    "3 hit streak occcurences": 4,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/35265",
-    "Team": "sfo"
-  },
-  {
-    "name": "Miguel Cabrera",
-    "recentHits": [
-      1,
-      1,
-      1,
-      0,
-      1,
-      0,
-      1,
-      1,
-      1,
-      0
-    ],
-    "Continue 2 Hit Streak %": 48,
-    "2 hit streak occcurences": 25,
-    "Continue 3 Hit Streak %": 50,
-    "3 hit streak occcurences": 12,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/5544",
-    "Team": "det"
-  },
-  {
     "name": "Jason Heyward",
     "recentHits": [
+      1,
       1,
       3,
       2,
@@ -1144,11 +1082,10 @@
       0,
       1,
       0,
-      1,
-      0
+      1
     ],
-    "Continue 2 Hit Streak %": 47.05882352941176,
-    "2 hit streak occcurences": 17,
+    "Continue 2 Hit Streak %": 44.44444444444444,
+    "2 hit streak occcurences": 18,
     "Continue 3 Hit Streak %": 50,
     "3 hit streak occcurences": 8,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/29551",
@@ -1218,27 +1155,6 @@
     "Team": "chc"
   },
   {
-    "name": "Manny Machado",
-    "recentHits": [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      0,
-      2,
-      0
-    ],
-    "Continue 2 Hit Streak %": 57.77777777777777,
-    "2 hit streak occcurences": 45,
-    "Continue 3 Hit Streak %": 44,
-    "3 hit streak occcurences": 25,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/31097",
-    "Team": "sdg"
-  },
-  {
     "name": "Austin Barnes",
     "recentHits": [
       1,
@@ -1279,5 +1195,24 @@
     "3 hit streak occcurences": 2,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/4997181",
     "Team": "tor"
+  },
+  {
+    "name": "Carter Kieboom",
+    "recentHits": [
+      1,
+      1,
+      2,
+      0,
+      0,
+      1,
+      2,
+      1
+    ],
+    "Continue 2 Hit Streak %": 50,
+    "2 hit streak occcurences": 2,
+    "Continue 3 Hit Streak %": 0,
+    "3 hit streak occcurences": 1,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/40446",
+    "Team": "was"
   }
 ]

@@ -63,27 +63,6 @@
     "Team": "laa"
   },
   {
-    "name": "David Hamilton",
-    "recentHits": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      1,
-      0,
-      1,
-      0
-    ],
-    "dueFactor2": 66.66666666666666,
-    "Occurences with 2 no hitters": 3,
-    "dueFactor3": 100,
-    "Occurences with 3 no hitters": 1,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/42987",
-    "Team": "bos"
-  },
-  {
     "name": "Riley Adams",
     "recentHits": [
       0,
@@ -105,27 +84,6 @@
     "Team": "was"
   },
   {
-    "name": "Oswald Peraza",
-    "recentHits": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      1,
-      0,
-      0,
-      0,
-      1
-    ],
-    "dueFactor2": 57.14285714285714,
-    "Occurences with 2 no hitters": 7,
-    "dueFactor3": 100,
-    "Occurences with 3 no hitters": 3,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/42479",
-    "Team": "nyy"
-  },
-  {
     "name": "Miguel Amaya",
     "recentHits": [
       0,
@@ -145,6 +103,27 @@
     "Occurences with 3 no hitters": 2,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/38905",
     "Team": "chc"
+  },
+  {
+    "name": "Oswald Peraza",
+    "recentHits": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "dueFactor2": 50,
+    "Occurences with 2 no hitters": 8,
+    "dueFactor3": 100,
+    "Occurences with 3 no hitters": 3,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/42479",
+    "Team": "nyy"
   },
   {
     "name": "Kyle Isbel",
@@ -258,15 +237,15 @@
       0,
       0,
       0,
+      0,
       2,
       2,
       0,
       1,
-      1,
-      0
+      1
     ],
-    "dueFactor2": 68,
-    "Occurences with 2 no hitters": 25,
+    "dueFactor2": 65.38461538461539,
+    "Occurences with 2 no hitters": 26,
     "dueFactor3": 57.14285714285714,
     "Occurences with 3 no hitters": 7,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/38994",
@@ -441,7 +420,7 @@
     "Team": "stl"
   },
   {
-    "name": "Riley Greene",
+    "name": "Amed Rosario",
     "recentHits": [
       0,
       0,
@@ -449,17 +428,17 @@
       1,
       1,
       0,
+      1,
       0,
-      0,
-      0,
-      1
+      1,
+      0
     ],
-    "dueFactor2": 66.66666666666666,
-    "Occurences with 2 no hitters": 6,
+    "dueFactor2": 71.42857142857143,
+    "Occurences with 2 no hitters": 14,
     "dueFactor3": 50,
-    "Occurences with 3 no hitters": 2,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/42179",
-    "Team": "det"
+    "Occurences with 3 no hitters": 4,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/33215",
+    "Team": "lad"
   },
   {
     "name": "Connor Joe",
@@ -567,25 +546,25 @@
     "Team": "cin"
   },
   {
-    "name": "Jake Bauers",
+    "name": "Akil Baddoo",
     "recentHits": [
       0,
       0,
       0,
+      1,
+      1,
       0,
+      1,
       0,
-      0,
-      0,
-      0,
-      0,
-      1
+      2,
+      0
     ],
-    "dueFactor2": 40.909090909090914,
-    "Occurences with 2 no hitters": 22,
-    "dueFactor3": 50,
-    "Occurences with 3 no hitters": 12,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/35013",
-    "Team": "nyy"
+    "dueFactor2": 55.00000000000001,
+    "Occurences with 2 no hitters": 20,
+    "dueFactor3": 44.44444444444444,
+    "Occurences with 3 no hitters": 9,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/40634",
+    "Team": "det"
   },
   {
     "name": "Jeimer Candelario",

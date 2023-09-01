@@ -6,6 +6,13 @@ function capitalizeWords(str) {
 }
 
 async function getTodaysMatches() {
+    
+function cleanLogoUrl(logoUrl) {
+    const regex = /(.*\.png)/;
+    const match = logoUrl.match(regex);
+    return match ? match[1] : logoUrl;
+}
+
     const teams = {};
     const matchUps = [];
 
@@ -67,12 +74,12 @@ async function getTodaysMatches() {
             awayTeam: {
                 code: awayTeamCode,
                 name: awayTeamName,
-                logoUrl: r.awayTeamLogo
+                logoUrl: cleanLogoUrl(r.awayTeamLogo)
             },
             homeTeam: {
                 code: homeTeamCode,
                 name: homeTeamName,
-                logoUrl: r.homeTeamLogo
+                logoUrl: cleanLogoUrl(r.homeTeamLogo)
             },
             matchLink: r.matchLink
         });
