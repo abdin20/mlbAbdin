@@ -16,7 +16,7 @@ function cleanLogoUrl(logoUrl) {
     const teams = {};
     const matchUps = [];
 
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
     await page.goto('https://www.espn.com/mlb/schedule');
 

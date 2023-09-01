@@ -3,21 +3,19 @@ const fs = require('fs');
 let highDueFactorPlayers = [];
 let hotStreakPlayers = [];
 const parallelPlayers = 4;
-const parallelBrowsers = 2;
+const parallelBrowsers = 1;
 
 
 
 const browserPool = [];
 const pagePool = [];
 
-const MAX_BROWSERS = 2;
-const PAGES_PER_BROWSER = 4;
 
 async function initialize() {
-    for (let i = 0; i < MAX_BROWSERS; i++) {
+    for (let i = 0; i < parallelBrowsers; i++) {
         const browser = await puppeteer.launch({ headless: false });
         browserPool.push(browser);
-        for (let j = 0; j < PAGES_PER_BROWSER; j++) {
+        for (let j = 0; j < parallelPlayers; j++) {
             const page = await browser.newPage();
             await page.setDefaultNavigationTimeout(0);
             pagePool.push(page);
@@ -184,8 +182,10 @@ async function scrapeMLBStats() {
             await browser.close();
         }
         console.log("Done")
+        process.exit(0);
     } catch (error) {
         console.error('An error occurred:', error.message);
+        process.exit(1);
     }
 }
 
@@ -332,5 +332,6 @@ getTodaysMatches().then(() => {
     console.log("Fetching completed!");
 }).catch(error => {
     console.error("Error occurred:", error.message);
+    process.exit(1);
 });
 scrapeMLBStats();
