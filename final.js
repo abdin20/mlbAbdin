@@ -13,7 +13,14 @@ const pagePool = [];
 
 async function initialize() {
     for (let i = 0; i < parallelBrowsers; i++) {
-        const browser = await puppeteer.launch({ headless: "new" });
+        const browser = await puppeteer.launch({
+            headless: "new", args: [
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-dev-shm-usage',
+                '--single-process'
+            ]
+        });
         browserPool.push(browser);
         for (let j = 0; j < parallelPlayers; j++) {
             const page = await browser.newPage();
@@ -48,7 +55,7 @@ function releaseBrowser(browser) {
     browserPool.push(browser);
 }
 
-async function processPlayer(browser, playerID,rosterUrl) {
+async function processPlayer(browser, playerID, rosterUrl) {
     const page = await getPage(browser);
     try {
         const playerUrl = `https://www.espn.com/mlb/player/gamelog/_/id/${playerID}`;
@@ -85,7 +92,7 @@ async function processPlayer(browser, playerID,rosterUrl) {
                     dueFactor3: probabilities.probability3,
                     "Occurences with 3 no hitters": probabilities.miss3HitGamesOccurences,
                     url: `https://www.espn.com/mlb/player/gamelog/_/id/${playerID}`,
-                    Team:(match && match[1]) ? match[1]:""
+                    Team: (match && match[1]) ? match[1] : ""
                 };
             }
         }
@@ -93,15 +100,15 @@ async function processPlayer(browser, playerID,rosterUrl) {
         if (recentHits.every(hit => hit > 0)) {
             const probabilities = calculateProbability(hits);
             if (probabilities.hitStreak2 >= 50 || probabilities.hitStreak3 >= 50) {
-                hotStreakPlayers.push( {
+                hotStreakPlayers.push({
                     name: playerName,
                     recentHits: hits.slice(0, 10),
-                    "Continue 2 Hit Streak %":probabilities.hitStreak2,
-                    "2 hit streak occcurences":probabilities.hitStreak2Games,
-                    "Continue 3 Hit Streak %":probabilities.hitStreak3,
-                    "3 hit streak occcurences":probabilities.hitStreak3Games,
+                    "Continue 2 Hit Streak %": probabilities.hitStreak2,
+                    "2 hit streak occcurences": probabilities.hitStreak2Games,
+                    "Continue 3 Hit Streak %": probabilities.hitStreak3,
+                    "3 hit streak occcurences": probabilities.hitStreak3Games,
                     url: `https://www.espn.com/mlb/player/gamelog/_/id/${playerID}`,
-                    Team:(match && match[1]) ? match[1]:""
+                    Team: (match && match[1]) ? match[1] : ""
                 });
             }
         }
@@ -127,7 +134,7 @@ async function processTeam(rosterUrl) {
         for (let i = 0; i < playerIDs.length; i += parallelPlayers) {
             const promises = [];
             for (let j = 0; j < parallelPlayers && i + j < playerIDs.length; j++) {
-                promises.push(processPlayer(browser, playerIDs[i + j],rosterUrl));
+                promises.push(processPlayer(browser, playerIDs[i + j], rosterUrl));
             }
             const results = await Promise.all(promises);
             highDueFactorPlayers = highDueFactorPlayers.concat(results.filter(result => result !== null));
@@ -167,7 +174,7 @@ async function scrapeMLBStats() {
             if (b['Continue 3 Hit Streak %'] === a['Continue 3 Hit Streak %']) {
                 return b["Continue 2 Hit Streak %"] - a["Continue 2 Hit Streak %"]
             }
-            return b['Continue 3 Hit Streak %']- a['Continue 3 Hit Streak %']
+            return b['Continue 3 Hit Streak %'] - a['Continue 3 Hit Streak %']
         });
         console.log("Saving Data")
         const output = JSON.stringify(highDueFactorPlayers, null, 2); // The '2' here is for pretty-printing the JSON with 2 spaces indentation

@@ -6,17 +6,24 @@ function capitalizeWords(str) {
 }
 
 async function getTodaysMatches() {
-    
-function cleanLogoUrl(logoUrl) {
-    const regex = /(.*\.png)/;
-    const match = logoUrl.match(regex);
-    return match ? match[1] : logoUrl;
-}
+
+    function cleanLogoUrl(logoUrl) {
+        const regex = /(.*\.png)/;
+        const match = logoUrl.match(regex);
+        return match ? match[1] : logoUrl;
+    }
 
     const teams = {};
     const matchUps = [];
 
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({
+        headless: "new", args: [
+            '--no-sandbox',
+            '--disable-setuid-sandbox',
+            '--disable-dev-shm-usage',
+            '--single-process'
+        ]
+    });
     const page = await browser.newPage();
     await page.goto('https://www.espn.com/mlb/schedule');
 
@@ -24,7 +31,7 @@ function cleanLogoUrl(logoUrl) {
         const todayDateString = new Date().toDateString();
 
         let matchDate = ''; // Declare the variable to store the date from the ESPN website.
-        
+
         const sections = document.querySelectorAll('.Table__Title');
         let data = [];
         sections.forEach(section => {
