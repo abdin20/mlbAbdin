@@ -70,7 +70,7 @@
         for (const match of matchUps) {
           document.getElementById("todaysMatches").innerHTML += `
           <div class="match">
-        <a id="specialLink" href="${match.matchLink}">
+        <a id="specialLink" href="${match.matchLink}" target="_blank">
             <img src="${match.awayTeam.logoUrl}" alt="${match.awayTeam.name}">
             <div class="vs-container">
                 <span class="team-away">${match.awayTeam.name} (Away)</span>
@@ -131,7 +131,7 @@
                   <h2>  <a href="${player.url}" target="_blank">${
               player.name
             }</a></h2>
-                    <h3><a href="${opponentData.matchLink}">${
+                    <h3><a href="${opponentData.matchLink}" target="_blank">${
               teams[player.Team]
             } (${opponentData.position}) vs ${opponentData.opponent}</a></h3>
              
@@ -172,7 +172,7 @@
                   <h2>  <a href="${player.url}" target="_blank">${
               player.name
             }</a></h2>
-                    <h3><a href="${opponentData.matchLink}">${
+                    <h3><a href="${opponentData.matchLink}" target="_blank">${
               teams[player.Team]
             } (${opponentData.position}) vs ${opponentData.opponent}</a></h3>
             <p>Recent Hits: ${player.recentHits.join(", ")}</p>
