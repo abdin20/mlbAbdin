@@ -149,7 +149,14 @@ async function processTeam(rosterUrl) {
 async function scrapeMLBStats() {
     try {
         await initialize();
-        const browser = await puppeteer.launch({ headless: "new" });
+        const browser = await puppeteer.launch({
+            headless: "new", args: [
+                '--no-sandbox',
+                '--disable-setuid-sandbox',
+                '--disable-dev-shm-usage',
+                '--single-process'
+            ]
+        });
         const mainPage = await browser.newPage();
         await mainPage.setDefaultNavigationTimeout(0);
         await mainPage.goto('https://www.espn.com/mlb/players');
