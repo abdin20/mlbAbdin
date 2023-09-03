@@ -3,7 +3,7 @@ const fs = require('fs');
 let highDueFactorPlayers = [];
 let hotStreakPlayers = [];
 const parallelPlayers = 4;
-const parallelBrowsers = 1;
+const parallelBrowsers = 2;
 
 
 
@@ -14,12 +14,7 @@ const pagePool = [];
 async function initialize() {
     for (let i = 0; i < parallelBrowsers; i++) {
         const browser = await puppeteer.launch({
-            headless: "new", args: [
-                '--no-sandbox',
-                '--disable-setuid-sandbox',
-                '--disable-dev-shm-usage',
-                '--single-process'
-            ]
+            headless: "new"
         });
         browserPool.push(browser);
         for (let j = 0; j < parallelPlayers; j++) {
@@ -150,12 +145,7 @@ async function scrapeMLBStats() {
     try {
         await initialize();
         const browser = await puppeteer.launch({
-            headless: "new", args: [
-                '--no-sandbox',
-                '--disable-setuid-sandbox',
-                '--disable-dev-shm-usage',
-                '--single-process'
-            ]
+            headless: "new"
         });
         const mainPage = await browser.newPage();
         await mainPage.setDefaultNavigationTimeout(0);
