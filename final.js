@@ -14,7 +14,7 @@ const pagePool = [];
 async function initialize() {
     for (let i = 0; i < parallelBrowsers; i++) {
         const browser = await puppeteer.launch({
-            headless: "new"
+            headless: false
         });
         browserPool.push(browser);
         for (let j = 0; j < parallelPlayers; j++) {
