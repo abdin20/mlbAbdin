@@ -21,25 +21,25 @@
     "Team": "chw"
   },
   {
-    "name": "Mitch Haniger",
+    "name": "Whit Merrifield",
     "recentHits": [
       0,
       0,
       0,
-      0,
       1,
-      0,
-      0,
       2,
+      3,
       1,
-      1
+      1,
+      1,
+      0
     ],
-    "dueFactor2": 87.5,
-    "Occurences with 2 no hitters": 8,
+    "dueFactor2": 85.71428571428571,
+    "Occurences with 2 no hitters": 7,
     "dueFactor3": 100,
     "Occurences with 3 no hitters": 1,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32771",
-    "Team": "sfo"
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32422",
+    "Team": "tor"
   },
   {
     "name": "Jonathan Arauz",
@@ -63,25 +63,25 @@
     "Team": "nym"
   },
   {
-    "name": "Christian Yelich",
+    "name": "Michael Chavis",
     "recentHits": [
       0,
       0,
       0,
-      1,
       0,
-      1,
-      1,
       2,
       0,
-      0
+      0,
+      1,
+      0,
+      2
     ],
-    "dueFactor2": 80,
+    "dueFactor2": 70,
     "Occurences with 2 no hitters": 10,
     "dueFactor3": 100,
-    "Occurences with 3 no hitters": 2,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/31283",
-    "Team": "mil"
+    "Occurences with 3 no hitters": 3,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/33823",
+    "Team": "was"
   },
   {
     "name": "Andrew Knizner",
@@ -90,65 +90,24 @@
       0,
       0,
       0,
+      0,
       1,
       1,
       0,
       2,
-      1,
-      2
+      1
     ],
-    "dueFactor2": 77.77777777777779,
-    "Occurences with 2 no hitters": 9,
+    "dueFactor2": 70,
+    "Occurences with 2 no hitters": 10,
     "dueFactor3": 100,
     "Occurences with 3 no hitters": 2,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/36170",
     "Team": "stl"
   },
   {
-    "name": "Michael Chavis",
-    "recentHits": [
-      0,
-      0,
-      0,
-      2,
-      0,
-      0,
-      1,
-      0,
-      2,
-      0
-    ],
-    "dueFactor2": 66.66666666666666,
-    "Occurences with 2 no hitters": 9,
-    "dueFactor3": 100,
-    "Occurences with 3 no hitters": 3,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/33823",
-    "Team": "was"
-  },
-  {
-    "name": "Bryce Harper",
-    "recentHits": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      2,
-      1,
-      1,
-      3
-    ],
-    "dueFactor2": 66.66666666666666,
-    "Occurences with 2 no hitters": 9,
-    "dueFactor3": 100,
-    "Occurences with 3 no hitters": 2,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/30951",
-    "Team": "phi"
-  },
-  {
     "name": "Johan Rojas",
     "recentHits": [
+      0,
       0,
       0,
       0,
@@ -157,78 +116,77 @@
       0,
       3,
       0,
-      0,
       0
     ],
-    "dueFactor2": 60,
-    "Occurences with 2 no hitters": 5,
+    "dueFactor2": 66.66666666666666,
+    "Occurences with 2 no hitters": 6,
     "dueFactor3": 100,
     "Occurences with 3 no hitters": 2,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/42829",
     "Team": "phi"
   },
   {
-    "name": "Matt Beaty",
+    "name": "Tyler Heineman",
     "recentHits": [
       0,
       0,
       0,
-      0,
-      0,
+      1,
+      1,
       0,
       2,
-      1,
       0,
-      1
+      0,
+      0
     ],
-    "dueFactor2": 57.14285714285714,
-    "Occurences with 2 no hitters": 7,
+    "dueFactor2": 50,
+    "Occurences with 2 no hitters": 4,
     "dueFactor3": 100,
     "Occurences with 3 no hitters": 2,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/37004",
-    "Team": "kan"
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/33142",
+    "Team": "tor"
   },
   {
-    "name": "Miguel Amaya",
+    "name": "Jon Berti",
     "recentHits": [
       0,
       0,
       0,
-      0,
-      0,
+      1,
       1,
       0,
+      2,
       0,
-      0,
+      1,
       1
     ],
-    "dueFactor2": 55.55555555555556,
-    "Occurences with 2 no hitters": 9,
-    "dueFactor3": 100,
-    "Occurences with 3 no hitters": 2,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/38905",
-    "Team": "chc"
+    "dueFactor2": 66.66666666666666,
+    "Occurences with 2 no hitters": 12,
+    "dueFactor3": 75,
+    "Occurences with 3 no hitters": 4,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32273",
+    "Team": "mia"
   },
   {
-    "name": "Gavin Sheets",
+    "name": "Jose Azocar",
     "recentHits": [
       0,
       0,
       0,
-      0,
-      0,
       1,
+      2,
+      0,
       0,
       0,
       1,
       0
     ],
-    "dueFactor2": 57.14285714285714,
-    "Occurences with 2 no hitters": 28,
-    "dueFactor3": 70,
-    "Occurences with 3 no hitters": 10,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/40700",
-    "Team": "chw"
+    "dueFactor2": 60,
+    "Occurences with 2 no hitters": 10,
+    "dueFactor3": 75,
+    "Occurences with 3 no hitters": 4,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/35058",
+    "Team": "sdg"
   },
   {
     "name": "Reese McGuire",
@@ -250,48 +208,6 @@
     "Occurences with 3 no hitters": 3,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/33250",
     "Team": "bos"
-  },
-  {
-    "name": "Yuli Gurriel",
-    "recentHits": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      0
-    ],
-    "dueFactor2": 50,
-    "Occurences with 2 no hitters": 22,
-    "dueFactor3": 60,
-    "Occurences with 3 no hitters": 10,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/36006",
-    "Team": "mia"
-  },
-  {
-    "name": "Jason Delay",
-    "recentHits": [
-      0,
-      0,
-      0,
-      1,
-      1,
-      2,
-      1,
-      0,
-      2,
-      1
-    ],
-    "dueFactor2": 44.44444444444444,
-    "Occurences with 2 no hitters": 18,
-    "dueFactor3": 60,
-    "Occurences with 3 no hitters": 10,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/41458",
-    "Team": "pit"
   },
   {
     "name": "Joey Wiemer",
@@ -362,16 +278,16 @@
       0,
       0,
       0,
+      0,
       3,
       1,
       1,
       0,
       1,
-      1,
-      0
+      1
     ],
-    "dueFactor2": 52.63157894736842,
-    "Occurences with 2 no hitters": 19,
+    "dueFactor2": 55.00000000000001,
+    "Occurences with 2 no hitters": 20,
     "dueFactor3": 55.55555555555556,
     "Occurences with 3 no hitters": 9,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/31385",
@@ -384,61 +300,40 @@
       0,
       0,
       0,
+      0,
       1,
       0,
       0,
       0,
-      0,
-      3
+      0
     ],
-    "dueFactor2": 52.63157894736842,
-    "Occurences with 2 no hitters": 19,
+    "dueFactor2": 50,
+    "Occurences with 2 no hitters": 20,
     "dueFactor3": 55.55555555555556,
     "Occurences with 3 no hitters": 9,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/32751",
     "Team": "tex"
   },
   {
-    "name": "Patrick Bailey",
+    "name": "Christian Bethancourt",
     "recentHits": [
       0,
       0,
       0,
-      0,
       1,
+      1,
+      0,
       0,
       2,
-      1,
-      1,
+      0,
       1
     ],
-    "dueFactor2": 75,
-    "Occurences with 2 no hitters": 8,
-    "dueFactor3": 50,
-    "Occurences with 3 no hitters": 2,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/4345843",
-    "Team": "sfo"
-  },
-  {
-    "name": "Eugenio Suarez",
-    "recentHits": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      1,
-      0,
-      2,
-      0,
-      0
-    ],
-    "dueFactor2": 64.70588235294117,
-    "Occurences with 2 no hitters": 17,
+    "dueFactor2": 61.111111111111114,
+    "Occurences with 2 no hitters": 18,
     "dueFactor3": 50,
     "Occurences with 3 no hitters": 6,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32367",
-    "Team": "sea"
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/31758",
+    "Team": "tam"
   },
   {
     "name": "Owen Miller",
@@ -467,41 +362,104 @@
       0,
       0,
       0,
+      0,
       1,
       0,
       1,
       1,
       2,
-      0,
       0
     ],
-    "dueFactor2": 50,
-    "Occurences with 2 no hitters": 18,
+    "dueFactor2": 52.63157894736842,
+    "Occurences with 2 no hitters": 19,
     "dueFactor3": 50,
     "Occurences with 3 no hitters": 8,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/34287",
     "Team": "mil"
   },
   {
-    "name": "David Fry",
+    "name": "Edouard Julien",
     "recentHits": [
       0,
       0,
+      0,
+      2,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "dueFactor2": 50,
+    "Occurences with 2 no hitters": 16,
+    "dueFactor3": 50,
+    "Occurences with 3 no hitters": 8,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/3985190",
+    "Team": "min"
+  },
+  {
+    "name": "Kolten Wong",
+    "recentHits": [
       0,
       0,
       0,
       1,
       0,
-      2,
-      2,
+      1,
+      0,
+      1,
+      1,
       1
     ],
-    "dueFactor2": 45.45454545454545,
-    "Occurences with 2 no hitters": 11,
+    "dueFactor2": 47.82608695652174,
+    "Occurences with 2 no hitters": 23,
     "dueFactor3": 50,
-    "Occurences with 3 no hitters": 4,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/41672",
-    "Team": "cle"
+    "Occurences with 3 no hitters": 12,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32061",
+    "Team": "lad"
+  },
+  {
+    "name": "Patrick Wisdom",
+    "recentHits": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "dueFactor2": 36,
+    "Occurences with 2 no hitters": 25,
+    "dueFactor3": 50,
+    "Occurences with 3 no hitters": 16,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32861",
+    "Team": "chc"
+  },
+  {
+    "name": "Ryan McMahon",
+    "recentHits": [
+      0,
+      0,
+      0,
+      1,
+      2,
+      2,
+      0,
+      0,
+      2,
+      2
+    ],
+    "dueFactor2": 50,
+    "Occurences with 2 no hitters": 22,
+    "dueFactor3": 45.45454545454545,
+    "Occurences with 3 no hitters": 11,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/33247",
+    "Team": "col"
   },
   {
     "name": "Alex Call",
@@ -515,56 +473,56 @@
       0,
       0,
       0,
-      2
+      0
     ],
-    "dueFactor2": 56.666666666666664,
-    "Occurences with 2 no hitters": 30,
-    "dueFactor3": 45.45454545454545,
-    "Occurences with 3 no hitters": 11,
+    "dueFactor2": 54.83870967741935,
+    "Occurences with 2 no hitters": 31,
+    "dueFactor3": 41.66666666666667,
+    "Occurences with 3 no hitters": 12,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/38994",
     "Team": "was"
   },
   {
-    "name": "Willy Adames",
+    "name": "Carter Kieboom",
     "recentHits": [
       0,
       0,
       0,
-      0,
       1,
+      1,
+      1,
+      2,
+      0,
+      0,
+      1
+    ],
+    "dueFactor2": 100,
+    "Occurences with 2 no hitters": 1,
+    "dueFactor3": 0,
+    "Occurences with 3 no hitters": 0,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/40446",
+    "Team": "was"
+  },
+  {
+    "name": "Parker Meadows",
+    "recentHits": [
+      0,
       0,
       0,
       2,
       1,
+      1,
+      0,
+      3,
+      0,
       0
     ],
-    "dueFactor2": 55.00000000000001,
-    "Occurences with 2 no hitters": 20,
-    "dueFactor3": 44.44444444444444,
-    "Occurences with 3 no hitters": 9,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/33675",
-    "Team": "mil"
-  },
-  {
-    "name": "Alek Thomas",
-    "recentHits": [
-      0,
-      0,
-      0,
-      1,
-      1,
-      0,
-      0,
-      1,
-      1,
-      0
-    ],
-    "dueFactor2": 66.66666666666666,
-    "Occurences with 2 no hitters": 18,
-    "dueFactor3": 20,
-    "Occurences with 3 no hitters": 5,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/41215",
-    "Team": "ari"
+    "dueFactor2": 100,
+    "Occurences with 2 no hitters": 1,
+    "dueFactor3": 0,
+    "Occurences with 3 no hitters": 0,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/41223",
+    "Team": "det"
   },
   {
     "name": "Brian O'Keefe",
@@ -582,5 +540,26 @@
     "Occurences with 3 no hitters": 0,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/39227",
     "Team": "sea"
+  },
+  {
+    "name": "Michael Busch",
+    "recentHits": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "dueFactor2": 100,
+    "Occurences with 2 no hitters": 5,
+    "dueFactor3": 0,
+    "Occurences with 3 no hitters": 0,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/42415",
+    "Team": "lad"
   }
 ]
