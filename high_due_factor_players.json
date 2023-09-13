@@ -126,6 +126,27 @@
     "Team": "col"
   },
   {
+    "name": "Pablo Reyes",
+    "recentHits": [
+      0,
+      0,
+      0,
+      2,
+      1,
+      0,
+      2,
+      3,
+      0,
+      1
+    ],
+    "dueFactor2": 60,
+    "Occurences with 2 no hitters": 10,
+    "dueFactor3": 100,
+    "Occurences with 3 no hitters": 4,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/35439",
+    "Team": "bos"
+  },
+  {
     "name": "Tyler Heineman",
     "recentHits": [
       0,
@@ -754,27 +775,6 @@
     "Occurences with 3 no hitters": 13,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/38994",
     "Team": "was"
-  },
-  {
-    "name": "Jeimer Candelario",
-    "recentHits": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      1,
-      1,
-      0,
-      0
-    ],
-    "dueFactor2": 61.111111111111114,
-    "Occurences with 2 no hitters": 18,
-    "dueFactor3": 33.33333333333333,
-    "Occurences with 3 no hitters": 6,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32531",
-    "Team": "chc"
   },
   {
     "name": "Andrew Stevenson",
