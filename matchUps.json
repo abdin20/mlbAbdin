@@ -1,104 +1,34 @@
 [
     {
-        "date": "Thursday, September 14, 2023 ",
+        "date": "Friday, September 15, 2023 ",
         "awayTeam": {
-            "code": "wsh",
-            "name": "Washington Nationals",
-            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/wsh.png"
+            "code": "nyy",
+            "name": "New York Yankees",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/nyy.png"
         },
         "homeTeam": {
             "code": "pit",
             "name": "Pittsburgh Pirates",
             "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/pit.png"
         },
-        "matchLink": "https://www.espn.com/mlb/game?gameId=401473216"
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473231"
     },
     {
-        "date": "Thursday, September 14, 2023 ",
+        "date": "Friday, September 15, 2023 ",
         "awayTeam": {
-            "code": "cin",
-            "name": "Cincinnati Reds",
-            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/cin.png"
+            "code": "atl",
+            "name": "Atlanta Braves",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/atl.png"
         },
         "homeTeam": {
-            "code": "det",
-            "name": "Detroit Tigers",
-            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/det.png"
-        },
-        "matchLink": "https://www.espn.com/mlb/game?gameId=401473210"
-    },
-    {
-        "date": "Thursday, September 14, 2023 ",
-        "awayTeam": {
-            "code": "nyy",
-            "name": "New York Yankees",
-            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/nyy.png"
-        },
-        "homeTeam": {
-            "code": "bos",
-            "name": "Boston Red Sox",
-            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/bos.png"
-        },
-        "matchLink": "https://www.espn.com/mlb/game?gameId=401598869"
-    },
-    {
-        "date": "Thursday, September 14, 2023 ",
-        "awayTeam": {
             "code": "mia",
             "name": "Miami Marlins",
             "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/mia.png"
         },
-        "homeTeam": {
-            "code": "mil",
-            "name": "Milwaukee Brewers",
-            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/mil.png"
-        },
-        "matchLink": "https://www.espn.com/mlb/game?gameId=401473211"
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473218"
     },
     {
-        "date": "Thursday, September 14, 2023 ",
-        "awayTeam": {
-            "code": "ari",
-            "name": "Arizona Diamondbacks",
-            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/ari.png"
-        },
-        "homeTeam": {
-            "code": "nym",
-            "name": "New York Mets",
-            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/nym.png"
-        },
-        "matchLink": "https://www.espn.com/mlb/game?gameId=401473208"
-    },
-    {
-        "date": "Thursday, September 14, 2023 ",
-        "awayTeam": {
-            "code": "tex",
-            "name": "Texas Rangers",
-            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/tex.png"
-        },
-        "homeTeam": {
-            "code": "tor",
-            "name": "Toronto Blue Jays",
-            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/tor.png"
-        },
-        "matchLink": "https://www.espn.com/mlb/game?gameId=401473215"
-    },
-    {
-        "date": "Thursday, September 14, 2023 ",
-        "awayTeam": {
-            "code": "nyy",
-            "name": "New York Yankees",
-            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/nyy.png"
-        },
-        "homeTeam": {
-            "code": "bos",
-            "name": "Boston Red Sox",
-            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/bos.png"
-        },
-        "matchLink": "https://www.espn.com/mlb/game?gameId=401473213"
-    },
-    {
-        "date": "Thursday, September 14, 2023 ",
+        "date": "Friday, September 15, 2023 ",
         "awayTeam": {
             "code": "tb",
             "name": "Tampa Bay Rays",
@@ -109,10 +39,52 @@
             "name": "Baltimore Orioles",
             "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/bal.png"
         },
-        "matchLink": "https://www.espn.com/mlb/game?gameId=401473214"
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473228"
     },
     {
-        "date": "Thursday, September 14, 2023 ",
+        "date": "Friday, September 15, 2023 ",
+        "awayTeam": {
+            "code": "bos",
+            "name": "Boston Red Sox",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/bos.png"
+        },
+        "homeTeam": {
+            "code": "tor",
+            "name": "Toronto Blue Jays",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/tor.png"
+        },
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473219"
+    },
+    {
+        "date": "Friday, September 15, 2023 ",
+        "awayTeam": {
+            "code": "cin",
+            "name": "Cincinnati Reds",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/cin.png"
+        },
+        "homeTeam": {
+            "code": "nym",
+            "name": "New York Mets",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/nym.png"
+        },
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473221"
+    },
+    {
+        "date": "Friday, September 15, 2023 ",
+        "awayTeam": {
+            "code": "tex",
+            "name": "Texas Rangers",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/tex.png"
+        },
+        "homeTeam": {
+            "code": "cle",
+            "name": "Cleveland Guardians",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/cle.png"
+        },
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473229"
+    },
+    {
+        "date": "Friday, September 15, 2023 ",
         "awayTeam": {
             "code": "min",
             "name": "Minnesota Twins",
@@ -123,10 +95,52 @@
             "name": "Chicago White Sox",
             "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/chw.png"
         },
-        "matchLink": "https://www.espn.com/mlb/game?gameId=401473212"
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473225"
     },
     {
-        "date": "Thursday, September 14, 2023 ",
+        "date": "Friday, September 15, 2023 ",
+        "awayTeam": {
+            "code": "hou",
+            "name": "Houston Astros",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/hou.png"
+        },
+        "homeTeam": {
+            "code": "kc",
+            "name": "Kansas City Royals",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/kc.png"
+        },
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473223"
+    },
+    {
+        "date": "Friday, September 15, 2023 ",
+        "awayTeam": {
+            "code": "wsh",
+            "name": "Washington Nationals",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/wsh.png"
+        },
+        "homeTeam": {
+            "code": "mil",
+            "name": "Milwaukee Brewers",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/mil.png"
+        },
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473230"
+    },
+    {
+        "date": "Friday, September 15, 2023 ",
+        "awayTeam": {
+            "code": "phi",
+            "name": "Philadelphia Phillies",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/phi.png"
+        },
+        "homeTeam": {
+            "code": "stl",
+            "name": "St Louis Cardinals",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/stl.png"
+        },
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473226"
+    },
+    {
+        "date": "Friday, September 15, 2023 ",
         "awayTeam": {
             "code": "sf",
             "name": "San Francisco Giants",
@@ -137,6 +151,62 @@
             "name": "Colorado Rockies",
             "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/col.png"
         },
-        "matchLink": "https://www.espn.com/mlb/game?gameId=401473217"
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473232"
+    },
+    {
+        "date": "Friday, September 15, 2023 ",
+        "awayTeam": {
+            "code": "det",
+            "name": "Detroit Tigers",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/det.png"
+        },
+        "homeTeam": {
+            "code": "laa",
+            "name": "Los Angeles Angels",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/laa.png"
+        },
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473222"
+    },
+    {
+        "date": "Friday, September 15, 2023 ",
+        "awayTeam": {
+            "code": "chc",
+            "name": "Chicago Cubs",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/chc.png"
+        },
+        "homeTeam": {
+            "code": "ari",
+            "name": "Arizona Diamondbacks",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/ari.png"
+        },
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473220"
+    },
+    {
+        "date": "Friday, September 15, 2023 ",
+        "awayTeam": {
+            "code": "sd",
+            "name": "San Diego Padres",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/sd.png"
+        },
+        "homeTeam": {
+            "code": "oak",
+            "name": "Oakland Athletics",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/oak.png"
+        },
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473227"
+    },
+    {
+        "date": "Friday, September 15, 2023 ",
+        "awayTeam": {
+            "code": "lad",
+            "name": "Los Angeles Dodgers",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/lad.png"
+        },
+        "homeTeam": {
+            "code": "sea",
+            "name": "Seattle Mariners",
+            "logoUrl": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/mlb/500/scoreboard/sea.png"
+        },
+        "matchLink": "https://www.espn.com/mlb/game?gameId=401473224"
     }
 ]
