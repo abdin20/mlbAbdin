@@ -1,20 +1,10 @@
 {
-    "kc": "Kansas City Royals",
-    "det": "Detroit Tigers",
-    "stl": "St Louis Cardinals",
-    "mil": "Milwaukee Brewers",
-    "pit": "Pittsburgh Pirates",
-    "phi": "Philadelphia Phillies",
-    "bos": "Boston Red Sox",
-    "bal": "Baltimore Orioles",
-    "nyy": "New York Yankees",
-    "tor": "Toronto Blue Jays",
-    "mia": "Miami Marlins",
-    "nym": "New York Mets",
-    "chc": "Chicago Cubs",
-    "atl": "Atlanta Braves",
-    "lad": "Los Angeles Dodgers",
-    "col": "Colorado Rockies",
     "tex": "Texas Rangers",
-    "sea": "Seattle Mariners"
+    "tb": "Tampa Bay Rays",
+    "tor": "Toronto Blue Jays",
+    "min": "Minnesota Twins",
+    "ari": "Arizona Diamondbacks",
+    "mil": "Milwaukee Brewers",
+    "mia": "Miami Marlins",
+    "phi": "Philadelphia Phillies"
 }
