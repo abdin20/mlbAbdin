@@ -1,10 +1,14 @@
 {
-    "tex": "Texas Rangers",
-    "tb": "Tampa Bay Rays",
-    "tor": "Toronto Blue Jays",
-    "min": "Minnesota Twins",
-    "ari": "Arizona Diamondbacks",
-    "mil": "Milwaukee Brewers",
+    "col": "Colorado Rockies",
     "mia": "Miami Marlins",
-    "phi": "Philadelphia Phillies"
+    "nyy": "New York Yankees",
+    "bal": "Baltimore Orioles",
+    "chc": "Chicago Cubs",
+    "nym": "New York Mets",
+    "sf": "San Francisco Giants",
+    "bos": "Boston Red Sox",
+    "wsh": "Washington Nationals",
+    "tex": "Texas Rangers",
+    "cle": "Cleveland Guardians",
+    "hou": "Houston Astros"
 }
