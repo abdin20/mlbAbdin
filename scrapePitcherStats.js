@@ -310,4 +310,5 @@ async function processGames() {
     }
 }
 
-processGames(); 
+// processGames();
+module.exports = processGames; 

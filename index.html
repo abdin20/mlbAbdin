@@ -263,74 +263,90 @@
             const matchupText = card.querySelector("h3 a").textContent;
             const teamMatch = matchupText.match(/^(.+?) \(/);
             let playerTeam = teamMatch ? teamMatch[1].trim() : null;
-            if (!playerTeam) return;
-
+            
             const pitcherObj = findPitcherForPlayer(playerName, playerTeam);
-            if (!pitcherObj) return;
+            const stats = pitcherObj ? pitcherObj.pitcherSeasonStats : null;
 
-            // Add pitcher info to the card
-            const stats = pitcherObj.pitcherSeasonStats;
             const pitcherInfoHTML = `
             <div class="pitcher-info" style="margin-top:8px;">
-              <h4 style="margin-bottom:4px;">Probable Pitcher: <a href="${
-                pitcherObj.pitcherUrl
-              }" target="_blank">${pitcherObj.pitcherName}</a></h4>
-              <p>Record: <b>${stats.record || "N/A"}</b> ${
-              stats.recordRank
-                ? `<span style='color:#888;'>(Rank: ${stats.recordRank})</span>`
-                : ""
-            }</p>
-              <p>ERA: <b>${stats.era ?? "N/A"}</b></p>
-              <p>Strikeouts: <b>${stats.strikeouts ?? "N/A"}</b> ${
-              stats.strikeoutsRank
-                ? `<span style='color:#888;'>(Rank: ${stats.strikeoutsRank})</span>`
-                : ""
-            }</p>
-              <p>WHIP: <b>${stats.whip ?? "N/A"}</b></p>
+              <h4 style="margin-bottom:4px;">Probable Pitcher: ${pitcherObj ? `<a href="${pitcherObj.pitcherUrl}" target="_blank">${pitcherObj.pitcherName}</a>` : '<br>N/A'}</h4>
+              <p>Record: <b>${stats ? (stats.record || "N/A") : "N/A"}</b> ${stats && stats.recordRank ? `<span style='color:#888;'>(Rank: ${stats.recordRank})</span>` : ""}</p>
+              <p>ERA: <b>${stats ? (stats.era ?? "N/A") : "N/A"}</b></p>
+              <p>Strikeouts: <b>${stats ? (stats.strikeouts ?? "N/A") : "N/A"}</b> ${stats && stats.strikeoutsRank ? `<span style='color:#888;'>(Rank: ${stats.strikeoutsRank})</span>` : ""}</p>
+              <p>WHIP: <b>${stats ? (stats.whip ?? "N/A") : "N/A"}</b></p>
+            </div>
+            <hr style="margin:8px 0;">
+            <div class="player-vs-pitcher">
+              <h5 style="margin-bottom:4px;">Vs. ${pitcherObj ? pitcherObj.pitcherName : 'N/A'}:</h5>
+              <table style="width:100%; border-collapse:collapse; font-size:0.97em; background:#f7f7f7; border-radius:6px; overflow:hidden;">
+                <thead>
+                  <tr style="background:#eaeaea;">
+                    <th>AB</th><th>H</th><th>BB</th><th>K</th><th>2B</th><th>3B</th><th>HR</th><th>RBI</th><th>AVG</th><th>OBP</th><th>SLG</th><th>OPS</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    ${(() => {
+                      if (!pitcherObj) {
+                        return `
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                        `;
+                      }
+                      const playerVsPitcher = pitcherObj.playerStats.find(
+                        (p) =>
+                          p.name.trim().toLowerCase() === playerName.trim().toLowerCase() ||
+                          p.url === card.querySelector("h2 a").href
+                      );
+                      if (playerVsPitcher) {
+                        const s = playerVsPitcher.stats;
+                        return `
+                          <td>${s.atBats}</td>
+                          <td>${s.hits}</td>
+                          <td>${s.walks}</td>
+                          <td>${s.strikeouts}</td>
+                          <td>${s.doubles}</td>
+                          <td>${s.triples}</td>
+                          <td>${s.homeRuns}</td>
+                          <td>${s.rbi}</td>
+                          <td>${s.battingAverage}</td>
+                          <td>${s.onBasePercentage}</td>
+                          <td>${s.sluggingPercentage}</td>
+                          <td>${s.ops}</td>
+                        `;
+                      } else {
+                        return `
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                          <td>N/A</td>
+                        `;
+                      }
+                    })()}
+                  </tr>
+                </tbody>
+              </table>
             </div>
           `;
             card.insertAdjacentHTML("beforeend", pitcherInfoHTML);
-
-            // Optionally, show player vs pitcher stats if available
-            const playerVsPitcher = pitcherObj.playerStats.find(
-              (p) =>
-                p.name.trim().toLowerCase() ===
-                  playerName.trim().toLowerCase() ||
-                p.url === card.querySelector("h2 a").href
-            );
-            if (playerVsPitcher) {
-              const s = playerVsPitcher.stats;
-              const vsHTML = `
-              <hr style="margin:8px 0;">
-              <div class="player-vs-pitcher">
-                <h5 style="margin-bottom:4px;">Vs. ${pitcherObj.pitcherName}:</h5>
-                <table style="width:100%; border-collapse:collapse; font-size:0.97em; background:#f7f7f7; border-radius:6px; overflow:hidden;">
-                  <thead>
-                    <tr style="background:#eaeaea;">
-                      <th>AB</th><th>H</th><th>BB</th><th>K</th><th>2B</th><th>3B</th><th>HR</th><th>RBI</th><th>AVG</th><th>OBP</th><th>SLG</th><th>OPS</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>${s.atBats}</td>
-                      <td>${s.hits}</td>
-                      <td>${s.walks}</td>
-                      <td>${s.strikeouts}</td>
-                      <td>${s.doubles}</td>
-                      <td>${s.triples}</td>
-                      <td>${s.homeRuns}</td>
-                      <td>${s.rbi}</td>
-                      <td>${s.battingAverage}</td>
-                      <td>${s.onBasePercentage}</td>
-                      <td>${s.sluggingPercentage}</td>
-                      <td>${s.ops}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            `;
-              card.insertAdjacentHTML("beforeend", vsHTML);
-            }
           });
         });
       }

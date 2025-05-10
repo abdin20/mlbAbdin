@@ -330,7 +330,10 @@ function calculateProbability(hits) {
     };
 }
 
-const getTodaysMatches = require('./fetchPlayingGames');
+
+async function main() {
+    const getTodaysMatches = require('./fetchPlayingGames');
+    const processGames = require('./scrapePitcherStats');
 
 getTodaysMatches().then(() => {
     console.log("Fetching completed!");
@@ -338,4 +341,8 @@ getTodaysMatches().then(() => {
     console.error("Error occurred:", error.message);
     process.exit(1);
 });
-scrapeMLBStats();
+await scrapeMLBStats();
+await processGames();
+}
+
+main();
