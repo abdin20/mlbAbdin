@@ -135,7 +135,7 @@
               teams[player.Team]
             } (${opponentData.position}) vs ${opponentData.opponent}</a></h3>
              
-                    <p>Recent Hits: ${player.recentHits.join(", ")}</p>
+                    <p>Recent Hits: ${[...player.recentHits].reverse().join(", ")}</p>
                     <p>% Continue 2 Hit Streak : ${player[
                       "Continue 2 Hit Streak %"
                     ].toFixed(2)}%</p>
@@ -175,7 +175,7 @@
                     <h3><a href="${opponentData.matchLink}" target="_blank">${
               teams[player.Team]
             } (${opponentData.position}) vs ${opponentData.opponent}</a></h3>
-            <p>Recent Hits: ${player.recentHits.join(", ")}</p>
+            <p>Recent Hits: ${[...player.recentHits].reverse().join(", ")}</p>
                     <p>% Chance to Hit after 2 no hitters: ${player.dueFactor2.toFixed(
                       2
                     )}%</p>
