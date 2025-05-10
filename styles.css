@@ -168,4 +168,28 @@ h1 {
     padding: 3px 10px;
     margin: 3px;
   }
+
+
+}
+.player-vs-pitcher table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.player-vs-pitcher th, .player-vs-pitcher td {
+  padding: 6px 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 0.97em;
+  white-space: nowrap;
+}
+
+.player-vs-pitcher th {
+  background: #eaeaea;
+  font-weight: bold;
+}
+
+.player-vs-pitcher td {
+  background: #f7f7f7;
 }

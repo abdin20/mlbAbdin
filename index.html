@@ -60,7 +60,9 @@
         });
       }
       async function displayTodaysMatches() {
-        const response = await fetch("https://raw.githubusercontent.com/abdin20/mlbAbdin/main/matchUps.json");
+        const response = await fetch(
+          "https://raw.githubusercontent.com/abdin20/mlbAbdin/main/matchUps.json"
+        );
         const matchUps = await response.json();
         if (matchUps.length > 0 && matchUps[0].date) {
           document.getElementById(
@@ -104,7 +106,9 @@
         return null; // or a default value
       }
       async function getTeamNames(teamsJSONUrl) {
-        const teamsResponse = await fetch("https://raw.githubusercontent.com/abdin20/mlbAbdin/main/teams.json");
+        const teamsResponse = await fetch(
+          "https://raw.githubusercontent.com/abdin20/mlbAbdin/main/teams.json"
+        );
         return await teamsResponse.json();
       }
 
@@ -112,13 +116,17 @@
         return playerData.filter((player) => teams[player.Team]);
       }
 
-      fetch("https://raw.githubusercontent.com/abdin20/mlbAbdin/main/hot_streak_factor_players.json")
+      fetch(
+        "https://raw.githubusercontent.com/abdin20/mlbAbdin/main/hot_streak_factor_players.json"
+      )
         .then((response) => response.json())
         .then(async (data) => {
-          const teams = await getTeamNames("https://raw.githubusercontent.com/abdin20/mlbAbdin/main/teams.json");
-          const matchUps = await fetch("https://raw.githubusercontent.com/abdin20/mlbAbdin/main/matchUps.json").then((res) =>
-            res.json()
+          const teams = await getTeamNames(
+            "https://raw.githubusercontent.com/abdin20/mlbAbdin/main/teams.json"
           );
+          const matchUps = await fetch(
+            "https://raw.githubusercontent.com/abdin20/mlbAbdin/main/matchUps.json"
+          ).then((res) => res.json());
           const filteredPlayers = await filterPlayersByTeam(data, teams);
 
           for (const player of filteredPlayers) {
@@ -135,7 +143,9 @@
               teams[player.Team]
             } (${opponentData.position}) vs ${opponentData.opponent}</a></h3>
              
-                    <p>Recent Hits: ${[...player.recentHits].reverse().join(", ")}</p>
+                    <p>Recent Hits: ${[...player.recentHits]
+                      .reverse()
+                      .join(", ")}</p>
                     <p>% Continue 2 Hit Streak : ${player[
                       "Continue 2 Hit Streak %"
                     ].toFixed(2)}%</p>
@@ -154,14 +164,18 @@
           setupPlayerToggle("hotStreak");
         });
 
-      fetch("https://raw.githubusercontent.com/abdin20/mlbAbdin/main/high_due_factor_players.json")
+      fetch(
+        "https://raw.githubusercontent.com/abdin20/mlbAbdin/main/high_due_factor_players.json"
+      )
         .then((response) => response.json())
         .then(async (data) => {
-          const teams = await getTeamNames("https://raw.githubusercontent.com/abdin20/mlbAbdin/main/teams.json");
-          const filteredPlayers = await filterPlayersByTeam(data, teams);
-          const matchUps = await fetch("https://raw.githubusercontent.com/abdin20/mlbAbdin/main/matchUps.json").then((res) =>
-            res.json()
+          const teams = await getTeamNames(
+            "https://raw.githubusercontent.com/abdin20/mlbAbdin/main/teams.json"
           );
+          const filteredPlayers = await filterPlayersByTeam(data, teams);
+          const matchUps = await fetch(
+            "https://raw.githubusercontent.com/abdin20/mlbAbdin/main/matchUps.json"
+          ).then((res) => res.json());
           for (const player of filteredPlayers) {
             const opponentData = await getOpponentForTeam(
               teams[player.Team],
@@ -193,6 +207,138 @@
           }
           setupPlayerToggle("highDue");
         });
+    </script>
+    <script>
+      async function addPitcherInfoToPlayerCards() {
+        // Fetch pitcher stats
+        const pitcherStatsResp = await fetch(
+          "https://raw.githubusercontent.com/abdin20/mlbAbdin/main/pitcher_stats.json"
+        );
+        const pitcherStats = await pitcherStatsResp.json();
+
+        // Fetch matchups for gameId matching
+        const matchUpsResp = await fetch(
+          "https://raw.githubusercontent.com/abdin20/mlbAbdin/main/matchUps.json"
+        );
+        const matchUps = await matchUpsResp.json();
+
+        // Fetch teams mapping
+        const teamsResp = await fetch(
+          "https://raw.githubusercontent.com/abdin20/mlbAbdin/main/teams.json"
+        );
+        const teams = await teamsResp.json();
+
+        // Helper to find the relevant pitcher for a player
+        function findPitcherForPlayer(playerName, playerTeam) {
+          // Find the matchup for this team
+          const match = matchUps.find(
+            (m) =>
+              m.awayTeam.name === playerTeam || m.homeTeam.name === playerTeam
+          );
+          if (!match) return null;
+
+          // Get the gameId
+          const gameId = match.matchLink.split("/gameId/")[1].split("/")[0];
+
+          // Find the pitcher object for the opponent using canonical team names
+          const pitchers = pitcherStats.filter((p) => p.gameId === gameId);
+          let pitcherObj = null;
+          if (match.homeTeam.name === playerTeam) {
+            pitcherObj = pitchers.find(
+              (p) => p.pitcherTeam === match.awayTeam.name
+            );
+          } else {
+            pitcherObj = pitchers.find(
+              (p) => p.pitcherTeam === match.homeTeam.name
+            );
+          }
+          return pitcherObj;
+        }
+
+        // For both hot streak and high due players
+        ["hotStreak", "highDue"].forEach((className) => {
+          document.querySelectorAll(`.player.${className}`).forEach((card) => {
+            const playerName = card.querySelector("h2 a").textContent.trim();
+            // Find the team name from the matchup text
+            const matchupText = card.querySelector("h3 a").textContent;
+            const teamMatch = matchupText.match(/^(.+?) \(/);
+            let playerTeam = teamMatch ? teamMatch[1].trim() : null;
+            if (!playerTeam) return;
+
+            const pitcherObj = findPitcherForPlayer(playerName, playerTeam);
+            if (!pitcherObj) return;
+
+            // Add pitcher info to the card
+            const stats = pitcherObj.pitcherSeasonStats;
+            const pitcherInfoHTML = `
+            <div class="pitcher-info" style="margin-top:8px;">
+              <h4 style="margin-bottom:4px;">Probable Pitcher: <a href="${
+                pitcherObj.pitcherUrl
+              }" target="_blank">${pitcherObj.pitcherName}</a></h4>
+              <p>Record: <b>${stats.record || "N/A"}</b> ${
+              stats.recordRank
+                ? `<span style='color:#888;'>(Rank: ${stats.recordRank})</span>`
+                : ""
+            }</p>
+              <p>ERA: <b>${stats.era ?? "N/A"}</b></p>
+              <p>Strikeouts: <b>${stats.strikeouts ?? "N/A"}</b> ${
+              stats.strikeoutsRank
+                ? `<span style='color:#888;'>(Rank: ${stats.strikeoutsRank})</span>`
+                : ""
+            }</p>
+              <p>WHIP: <b>${stats.whip ?? "N/A"}</b></p>
+            </div>
+          `;
+            card.insertAdjacentHTML("beforeend", pitcherInfoHTML);
+
+            // Optionally, show player vs pitcher stats if available
+            const playerVsPitcher = pitcherObj.playerStats.find(
+              (p) =>
+                p.name.trim().toLowerCase() ===
+                  playerName.trim().toLowerCase() ||
+                p.url === card.querySelector("h2 a").href
+            );
+            if (playerVsPitcher) {
+              const s = playerVsPitcher.stats;
+              const vsHTML = `
+              <hr style="margin:8px 0;">
+              <div class="player-vs-pitcher">
+                <h5 style="margin-bottom:4px;">Vs. ${pitcherObj.pitcherName}:</h5>
+                <table style="width:100%; border-collapse:collapse; font-size:0.97em; background:#f7f7f7; border-radius:6px; overflow:hidden;">
+                  <thead>
+                    <tr style="background:#eaeaea;">
+                      <th>AB</th><th>H</th><th>BB</th><th>K</th><th>2B</th><th>3B</th><th>HR</th><th>RBI</th><th>AVG</th><th>OBP</th><th>SLG</th><th>OPS</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>${s.atBats}</td>
+                      <td>${s.hits}</td>
+                      <td>${s.walks}</td>
+                      <td>${s.strikeouts}</td>
+                      <td>${s.doubles}</td>
+                      <td>${s.triples}</td>
+                      <td>${s.homeRuns}</td>
+                      <td>${s.rbi}</td>
+                      <td>${s.battingAverage}</td>
+                      <td>${s.onBasePercentage}</td>
+                      <td>${s.sluggingPercentage}</td>
+                      <td>${s.ops}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            `;
+              card.insertAdjacentHTML("beforeend", vsHTML);
+            }
+          });
+        });
+      }
+
+      // Run after player cards are rendered
+      window.addEventListener("load", () => {
+        setTimeout(addPitcherInfoToPlayerCards, 1500); // Wait a bit longer for player cards to render
+      });
     </script>
   </body>
 </html>
