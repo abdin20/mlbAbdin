@@ -1,0 +1,2986 @@
+[
+  {
+    "gameId": "401695489",
+    "pitcherName": "Ranger Suarez",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/39817",
+    "pitcherTeam": "phillies",
+    "opponentTeam": "guardians",
+    "pitcherSeasonStats": {
+      "record": "0-0",
+      "recordRank": "150+",
+      "era": 17.18,
+      "strikeouts": 6,
+      "strikeoutsRank": "150+",
+      "whip": 2.45
+    },
+    "playerStats": [
+      {
+        "name": "Gabriel Arias",
+        "url": "https://www.espn.com/mlb/player/_/id/40344",
+        "stats": {
+          "atBats": 1,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 0,
+          "ops": 0.5
+        }
+      },
+      {
+        "name": "Nolan Jones",
+        "url": "https://www.espn.com/mlb/player/_/id/37340",
+        "stats": {
+          "atBats": 4,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Steven Kwan",
+        "url": "https://www.espn.com/mlb/player/_/id/41996",
+        "stats": {
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.333,
+          "ops": 0.667
+        }
+      },
+      {
+        "name": "Jose Ramirez",
+        "url": "https://www.espn.com/mlb/player/_/id/32801",
+        "stats": {
+          "atBats": 3,
+          "hits": 3,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 1,
+          "onBasePercentage": 1,
+          "sluggingPercentage": 1,
+          "ops": 2
+        }
+      },
+      {
+        "name": "Carlos Santana",
+        "url": "https://www.espn.com/mlb/player/_/id/30280",
+        "stats": {
+          "atBats": 5,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.4,
+          "onBasePercentage": 0.4,
+          "sluggingPercentage": 0.4,
+          "ops": 0.8
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695489",
+    "pitcherName": "Tanner Bibee",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/4345278",
+    "pitcherTeam": "guardians",
+    "opponentTeam": "phillies",
+    "pitcherSeasonStats": {
+      "record": "3-2",
+      "recordRank": "Tied-34th",
+      "era": 4.26,
+      "strikeouts": 28,
+      "strikeoutsRank": "Tied-106th",
+      "whip": 1.32
+    },
+    "playerStats": [
+      {
+        "name": "Alec Bohm",
+        "url": "https://www.espn.com/mlb/player/_/id/41169",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Nick Castellanos",
+        "url": "https://www.espn.com/mlb/player/_/id/31187",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Bryce Harper",
+        "url": "https://www.espn.com/mlb/player/_/id/30951",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Max Kepler",
+        "url": "https://www.espn.com/mlb/player/_/id/31870",
+        "stats": {
+          "atBats": 16,
+          "hits": 4,
+          "doubles": 2,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 2,
+          "walks": 0,
+          "strikeouts": 7,
+          "battingAverage": 0.25,
+          "onBasePercentage": 0.25,
+          "sluggingPercentage": 0.375,
+          "ops": 0.625
+        }
+      },
+      {
+        "name": "Brandon Marsh",
+        "url": "https://www.espn.com/mlb/player/_/id/40803",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "J.T. Realmuto",
+        "url": "https://www.espn.com/mlb/player/_/id/32177",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0,
+          "ops": 0.333
+        }
+      },
+      {
+        "name": "Kyle Schwarber",
+        "url": "https://www.espn.com/mlb/player/_/id/33712",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Edmundo Sosa",
+        "url": "https://www.espn.com/mlb/player/_/id/33809",
+        "stats": {
+          "atBats": 1,
+          "hits": 1,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 1,
+          "onBasePercentage": 1,
+          "sluggingPercentage": 2,
+          "ops": 3
+        }
+      },
+      {
+        "name": "Bryson Stott",
+        "url": "https://www.espn.com/mlb/player/_/id/42417",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Trea Turner",
+        "url": "https://www.espn.com/mlb/player/_/id/33710",
+        "stats": {
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.333,
+          "ops": 0.667
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695491",
+    "pitcherName": "Jacob deGrom",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/32796",
+    "pitcherTeam": "rangers",
+    "opponentTeam": "tigers",
+    "pitcherSeasonStats": {
+      "record": "2-1",
+      "recordRank": "Tied-75th",
+      "era": 2.61,
+      "strikeouts": 36,
+      "strikeoutsRank": "Tied-63rd",
+      "whip": 1
+    },
+    "playerStats": [
+      {
+        "name": "Javier Baez",
+        "url": "https://www.espn.com/mlb/player/_/id/32127",
+        "stats": {
+          "atBats": 17,
+          "hits": 3,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 10,
+          "battingAverage": 0.176,
+          "onBasePercentage": 0.222,
+          "sluggingPercentage": 0.176,
+          "ops": 0.399
+        }
+      },
+      {
+        "name": "Jack Flaherty",
+        "url": "https://www.espn.com/mlb/player/_/id/33837",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Zach McKinstry",
+        "url": "https://www.espn.com/mlb/player/_/id/38420",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Gleyber Torres",
+        "url": "https://www.espn.com/mlb/player/_/id/33804",
+        "stats": {
+          "atBats": 8,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 4,
+          "battingAverage": 0.25,
+          "onBasePercentage": 0.25,
+          "sluggingPercentage": 0.25,
+          "ops": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695491",
+    "pitcherName": "Jack Flaherty",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/33837",
+    "pitcherTeam": "tigers",
+    "opponentTeam": "rangers",
+    "pitcherSeasonStats": {
+      "record": "1-4",
+      "recordRank": "150+",
+      "era": 3.79,
+      "strikeouts": 46,
+      "strikeoutsRank": "Tied-27th",
+      "whip": 1.18
+    },
+    "playerStats": [
+      {
+        "name": "Tucker Barnhart",
+        "url": "https://www.espn.com/mlb/player/_/id/31173",
+        "stats": {
+          "atBats": 10,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 3,
+          "battingAverage": 0.1,
+          "onBasePercentage": 0.182,
+          "sluggingPercentage": 0.1,
+          "ops": 0.282
+        }
+      },
+      {
+        "name": "Evan Carter",
+        "url": "https://www.espn.com/mlb/player/_/id/4917921",
+        "stats": {
+          "atBats": 1,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 1,
+          "onBasePercentage": 1,
+          "sluggingPercentage": 1,
+          "ops": 2
+        }
+      },
+      {
+        "name": "Jacob deGrom",
+        "url": "https://www.espn.com/mlb/player/_/id/32796",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Ezequiel Duran",
+        "url": "https://www.espn.com/mlb/player/_/id/42457",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Adolis Garcia",
+        "url": "https://www.espn.com/mlb/player/_/id/35537",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Jonah Heim",
+        "url": "https://www.espn.com/mlb/player/_/id/33842",
+        "stats": {
+          "atBats": 5,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 3,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Josh Jung",
+        "url": "https://www.espn.com/mlb/player/_/id/42437",
+        "stats": {
+          "atBats": 2,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 2,
+          "strikeouts": 0,
+          "battingAverage": 0.5,
+          "onBasePercentage": 0.75,
+          "sluggingPercentage": 0.5,
+          "ops": 1.25
+        }
+      },
+      {
+        "name": "Wyatt Langford",
+        "url": "https://www.espn.com/mlb/player/_/id/4719324",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Joc Pederson",
+        "url": "https://www.espn.com/mlb/player/_/id/31392",
+        "stats": {
+          "atBats": 20,
+          "hits": 6,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 2,
+          "rbi": 3,
+          "walks": 1,
+          "strikeouts": 4,
+          "battingAverage": 0.3,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.65,
+          "ops": 0.983
+        }
+      },
+      {
+        "name": "Corey Seager",
+        "url": "https://www.espn.com/mlb/player/_/id/32691",
+        "stats": {
+          "atBats": 10,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 2,
+          "strikeouts": 4,
+          "battingAverage": 0,
+          "onBasePercentage": 0.167,
+          "sluggingPercentage": 0,
+          "ops": 0.167
+        }
+      },
+      {
+        "name": "Marcus Semien",
+        "url": "https://www.espn.com/mlb/player/_/id/32146",
+        "stats": {
+          "atBats": 9,
+          "hits": 3,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 1,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.667,
+          "ops": 1
+        }
+      },
+      {
+        "name": "Josh Smith",
+        "url": "https://www.espn.com/mlb/player/_/id/42884",
+        "stats": {
+          "atBats": 5,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 3,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695492",
+    "pitcherName": "Garrett Crochet",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/4297835",
+    "pitcherTeam": "red",
+    "opponentTeam": "sox",
+    "pitcherSeasonStats": {
+      "record": "3-2",
+      "recordRank": "Tied-34th",
+      "era": 2.02,
+      "strikeouts": 56,
+      "strikeoutsRank": "Tied-8th",
+      "whip": 1.06
+    },
+    "playerStats": [
+      {
+        "name": "Mark Canha",
+        "url": "https://www.espn.com/mlb/player/_/id/31670",
+        "stats": {
+          "atBats": 5,
+          "hits": 1,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0.2,
+          "onBasePercentage": 0.2,
+          "sluggingPercentage": 0.4,
+          "ops": 0.6
+        }
+      },
+      {
+        "name": "Freddy Fermin",
+        "url": "https://www.espn.com/mlb/player/_/id/41928",
+        "stats": {
+          "atBats": 2,
+          "hits": 1,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 0.5,
+          "onBasePercentage": 0.667,
+          "sluggingPercentage": 1,
+          "ops": 1.667
+        }
+      },
+      {
+        "name": "Maikel Garcia",
+        "url": "https://www.espn.com/mlb/player/_/id/4905884",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Jonathan India",
+        "url": "https://www.espn.com/mlb/player/_/id/41171",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 2,
+          "battingAverage": 0,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0,
+          "ops": 0.333
+        }
+      },
+      {
+        "name": "Luke Maile",
+        "url": "https://www.espn.com/mlb/player/_/id/33271",
+        "stats": {
+          "atBats": 2,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 2,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.5,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 0.5,
+          "ops": 1
+        }
+      },
+      {
+        "name": "Michael Massey",
+        "url": "https://www.espn.com/mlb/player/_/id/4109223",
+        "stats": {
+          "atBats": 1,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Salvador Perez",
+        "url": "https://www.espn.com/mlb/player/_/id/31127",
+        "stats": {
+          "atBats": 5,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 3,
+          "battingAverage": 0.2,
+          "onBasePercentage": 0.2,
+          "sluggingPercentage": 0.2,
+          "ops": 0.4
+        }
+      },
+      {
+        "name": "Hunter Renfroe",
+        "url": "https://www.espn.com/mlb/player/_/id/33205",
+        "stats": {
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 1,
+          "rbi": 2,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 1.333,
+          "ops": 1.667
+        }
+      },
+      {
+        "name": "Bobby Witt Jr.",
+        "url": "https://www.espn.com/mlb/player/_/id/42403",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695492",
+    "pitcherName": "Cole Ragans",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/41054",
+    "pitcherTeam": "sox",
+    "opponentTeam": "red",
+    "pitcherSeasonStats": {
+      "record": "2-1",
+      "recordRank": "Tied-75th",
+      "era": 3.79,
+      "strikeouts": 57,
+      "strikeoutsRank": "Tied-6th",
+      "whip": 1.15
+    },
+    "playerStats": [
+      {
+        "name": "Alex Bregman",
+        "url": "https://www.espn.com/mlb/player/_/id/34886",
+        "stats": {
+          "atBats": 10,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 1,
+          "rbi": 3,
+          "walks": 5,
+          "strikeouts": 1,
+          "battingAverage": 0.2,
+          "onBasePercentage": 0.467,
+          "sluggingPercentage": 0.5,
+          "ops": 0.967
+        }
+      },
+      {
+        "name": "Rafael Devers",
+        "url": "https://www.espn.com/mlb/player/_/id/33859",
+        "stats": {
+          "atBats": 8,
+          "hits": 2,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 2,
+          "battingAverage": 0.25,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.375,
+          "ops": 0.708
+        }
+      },
+      {
+        "name": "Jarren Duran",
+        "url": "https://www.espn.com/mlb/player/_/id/41610",
+        "stats": {
+          "atBats": 6,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "David Hamilton",
+        "url": "https://www.espn.com/mlb/player/_/id/42987",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Ceddanne Rafaela",
+        "url": "https://www.espn.com/mlb/player/_/id/4987382",
+        "stats": {
+          "atBats": 5,
+          "hits": 2,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.4,
+          "onBasePercentage": 0.4,
+          "sluggingPercentage": 0.6,
+          "ops": 1
+        }
+      },
+      {
+        "name": "Rob Refsnyder",
+        "url": "https://www.espn.com/mlb/player/_/id/33411",
+        "stats": {
+          "atBats": 7,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 2,
+          "strikeouts": 0,
+          "battingAverage": 0.143,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.143,
+          "ops": 0.476
+        }
+      },
+      {
+        "name": "Nick Sogard",
+        "url": "https://www.espn.com/mlb/player/_/id/42979",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0,
+          "ops": 0.333
+        }
+      },
+      {
+        "name": "Abraham Toro",
+        "url": "https://www.espn.com/mlb/player/_/id/40754",
+        "stats": {
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.333,
+          "ops": 0.667
+        }
+      },
+      {
+        "name": "Connor Wong",
+        "url": "https://www.espn.com/mlb/player/_/id/40086",
+        "stats": {
+          "atBats": 8,
+          "hits": 1,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 5,
+          "battingAverage": 0.125,
+          "onBasePercentage": 0.125,
+          "sluggingPercentage": 0.25,
+          "ops": 0.375
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695493",
+    "pitcherName": "Brady Singer",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/41172",
+    "pitcherTeam": "reds",
+    "opponentTeam": "astros",
+    "pitcherSeasonStats": {
+      "record": "4-2",
+      "recordRank": "Tied-10th",
+      "era": 3.66,
+      "strikeouts": 38,
+      "strikeoutsRank": "Tied-51st",
+      "whip": 1.14
+    },
+    "playerStats": [
+      {
+        "name": "Jose Altuve",
+        "url": "https://www.espn.com/mlb/player/_/id/31662",
+        "stats": {
+          "atBats": 15,
+          "hits": 3,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.2,
+          "onBasePercentage": 0.2,
+          "sluggingPercentage": 0.267,
+          "ops": 0.467
+        }
+      },
+      {
+        "name": "Victor Caratini",
+        "url": "https://www.espn.com/mlb/player/_/id/33229",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Yainer Diaz",
+        "url": "https://www.espn.com/mlb/player/_/id/4781491",
+        "stats": {
+          "atBats": 5,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 1,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.2,
+          "onBasePercentage": 0.2,
+          "sluggingPercentage": 0.8,
+          "ops": 1
+        }
+      },
+      {
+        "name": "Mauricio Dubon",
+        "url": "https://www.espn.com/mlb/player/_/id/35304",
+        "stats": {
+          "atBats": 2,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.5,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 0.5,
+          "ops": 1
+        }
+      },
+      {
+        "name": "Chas McCormick",
+        "url": "https://www.espn.com/mlb/player/_/id/40574",
+        "stats": {
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.333,
+          "ops": 0.667
+        }
+      },
+      {
+        "name": "Jake Meyers",
+        "url": "https://www.espn.com/mlb/player/_/id/40719",
+        "stats": {
+          "atBats": 7,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 3,
+          "battingAverage": 0.286,
+          "onBasePercentage": 0.375,
+          "sluggingPercentage": 0.286,
+          "ops": 0.661
+        }
+      },
+      {
+        "name": "Isaac Paredes",
+        "url": "https://www.espn.com/mlb/player/_/id/39706",
+        "stats": {
+          "atBats": 11,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 1,
+          "rbi": 2,
+          "walks": 1,
+          "strikeouts": 2,
+          "battingAverage": 0.091,
+          "onBasePercentage": 0.167,
+          "sluggingPercentage": 0.364,
+          "ops": 0.53
+        }
+      },
+      {
+        "name": "Jeremy Pena",
+        "url": "https://www.espn.com/mlb/player/_/id/41273",
+        "stats": {
+          "atBats": 6,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 1,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.429,
+          "sluggingPercentage": 0.333,
+          "ops": 0.762
+        }
+      },
+      {
+        "name": "Christian Walker",
+        "url": "https://www.espn.com/mlb/player/_/id/32758",
+        "stats": {
+          "atBats": 6,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.167,
+          "onBasePercentage": 0.167,
+          "sluggingPercentage": 0.167,
+          "ops": 0.333
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695493",
+    "pitcherName": "Lance McCullers Jr.",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/32764",
+    "pitcherTeam": "astros",
+    "opponentTeam": "reds",
+    "pitcherSeasonStats": {
+      "record": "0-0",
+      "recordRank": "150+",
+      "era": 0,
+      "strikeouts": 4,
+      "strikeoutsRank": "150+",
+      "whip": 1.64
+    },
+    "playerStats": [
+      {
+        "name": "Austin Hays",
+        "url": "https://www.espn.com/mlb/player/_/id/36928",
+        "stats": {
+          "atBats": 2,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.5,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 0.5,
+          "ops": 1
+        }
+      },
+      {
+        "name": "Jose Trevino",
+        "url": "https://www.espn.com/mlb/player/_/id/35268",
+        "stats": {
+          "atBats": 7,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0.125,
+          "sluggingPercentage": 0,
+          "ops": 0.125
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695494",
+    "pitcherName": "Edward Cabrera",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/40944",
+    "pitcherTeam": "marlins",
+    "opponentTeam": "white",
+    "pitcherSeasonStats": {
+      "record": "0-1",
+      "recordRank": "150+",
+      "era": 6.29,
+      "strikeouts": 24,
+      "strikeoutsRank": "Tied-137th",
+      "whip": 1.68
+    },
+    "playerStats": [
+      {
+        "name": "Joshua Palacios",
+        "url": "https://www.espn.com/mlb/player/_/id/36462",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Luis Robert Jr.",
+        "url": "https://www.espn.com/mlb/player/_/id/39631",
+        "stats": {
+          "atBats": 2,
+          "hits": 1,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.5,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 1,
+          "ops": 1.5
+        }
+      },
+      {
+        "name": "Josh Rojas",
+        "url": "https://www.espn.com/mlb/player/_/id/40718",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Lenyn Sosa",
+        "url": "https://www.espn.com/mlb/player/_/id/41684",
+        "stats": {
+          "atBats": 2,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 1,
+          "onBasePercentage": 1,
+          "sluggingPercentage": 1,
+          "ops": 2
+        }
+      },
+      {
+        "name": "Andrew Vaughn",
+        "url": "https://www.espn.com/mlb/player/_/id/42394",
+        "stats": {
+          "atBats": 1,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 0,
+          "ops": 0.5
+        }
+      },
+      {
+        "name": "Bryse Wilson",
+        "url": "https://www.espn.com/mlb/player/_/id/40922",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695487",
+    "pitcherName": "Brad Keller",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/35292",
+    "pitcherTeam": "cubs",
+    "opponentTeam": "mets",
+    "pitcherSeasonStats": {
+      "era": 3.78,
+      "strikeouts": 18,
+      "strikeoutsRank": "150+",
+      "whip": 1.26
+    },
+    "playerStats": [
+      {
+        "name": "Jose Azocar",
+        "url": "https://www.espn.com/mlb/player/_/id/35058",
+        "stats": {
+          "atBats": 1,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 1,
+          "onBasePercentage": 1,
+          "sluggingPercentage": 1,
+          "ops": 2
+        }
+      },
+      {
+        "name": "Francisco Lindor",
+        "url": "https://www.espn.com/mlb/player/_/id/32129",
+        "stats": {
+          "atBats": 17,
+          "hits": 5,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 3,
+          "battingAverage": 0.294,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.294,
+          "ops": 0.627
+        }
+      },
+      {
+        "name": "Starling Marte",
+        "url": "https://www.espn.com/mlb/player/_/id/30830",
+        "stats": {
+          "atBats": 4,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.25,
+          "onBasePercentage": 0.25,
+          "sluggingPercentage": 0.25,
+          "ops": 0.5
+        }
+      },
+      {
+        "name": "Juan Soto",
+        "url": "https://www.espn.com/mlb/player/_/id/36969",
+        "stats": {
+          "atBats": 6,
+          "hits": 4,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 2,
+          "rbi": 3,
+          "walks": 3,
+          "strikeouts": 0,
+          "battingAverage": 0.667,
+          "onBasePercentage": 0.778,
+          "sluggingPercentage": 1.667,
+          "ops": 2.444
+        }
+      },
+      {
+        "name": "Tyrone Taylor",
+        "url": "https://www.espn.com/mlb/player/_/id/32783",
+        "stats": {
+          "atBats": 1,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695487",
+    "pitcherName": "Tylor Megill",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/3332018",
+    "pitcherTeam": "mets",
+    "opponentTeam": "cubs",
+    "pitcherSeasonStats": {
+      "record": "3-2",
+      "recordRank": "Tied-34th",
+      "era": 2.5,
+      "strikeouts": 45,
+      "strikeoutsRank": "Tied-29th",
+      "whip": 1.17
+    },
+    "playerStats": [
+      {
+        "name": "Jon Berti",
+        "url": "https://www.espn.com/mlb/player/_/id/32273",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Michael Busch",
+        "url": "https://www.espn.com/mlb/player/_/id/42415",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Pete Crow-Armstrong",
+        "url": "https://www.espn.com/mlb/player/_/id/4717833",
+        "stats": {
+          "atBats": 2,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 1,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.5,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 1.5,
+          "ops": 2
+        }
+      },
+      {
+        "name": "Ian Happ",
+        "url": "https://www.espn.com/mlb/player/_/id/34945",
+        "stats": {
+          "atBats": 4,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Nico Hoerner",
+        "url": "https://www.espn.com/mlb/player/_/id/41219",
+        "stats": {
+          "atBats": 4,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 1,
+          "battingAverage": 0.25,
+          "onBasePercentage": 0.4,
+          "sluggingPercentage": 0.25,
+          "ops": 0.65
+        }
+      },
+      {
+        "name": "Nicky Lopez",
+        "url": "https://www.espn.com/mlb/player/_/id/38106",
+        "stats": {
+          "atBats": 4,
+          "hits": 3,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 1,
+          "battingAverage": 0.75,
+          "onBasePercentage": 0.8,
+          "sluggingPercentage": 0.75,
+          "ops": 1.55
+        }
+      },
+      {
+        "name": "Seiya Suzuki",
+        "url": "https://www.espn.com/mlb/player/_/id/4142424",
+        "stats": {
+          "atBats": 3,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 1,
+          "rbi": 2,
+          "walks": 1,
+          "strikeouts": 1,
+          "battingAverage": 0.667,
+          "onBasePercentage": 0.75,
+          "sluggingPercentage": 1.667,
+          "ops": 2.417
+        }
+      },
+      {
+        "name": "Dansby Swanson",
+        "url": "https://www.espn.com/mlb/player/_/id/34895",
+        "stats": {
+          "atBats": 12,
+          "hits": 3,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 2,
+          "walks": 1,
+          "strikeouts": 6,
+          "battingAverage": 0.25,
+          "onBasePercentage": 0.308,
+          "sluggingPercentage": 0.333,
+          "ops": 0.641
+        }
+      },
+      {
+        "name": "Kyle Tucker",
+        "url": "https://www.espn.com/mlb/player/_/id/34967",
+        "stats": {
+          "atBats": 0,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 1,
+          "sluggingPercentage": 0,
+          "ops": 1
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695495",
+    "pitcherName": "Logan Webb",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/41216",
+    "pitcherTeam": "giants",
+    "opponentTeam": "twins",
+    "pitcherSeasonStats": {
+      "record": "4-2",
+      "recordRank": "Tied-10th",
+      "era": 2.61,
+      "strikeouts": 56,
+      "strikeoutsRank": "Tied-8th",
+      "whip": 1.2
+    },
+    "playerStats": [
+      {
+        "name": "Harrison Bader",
+        "url": "https://www.espn.com/mlb/player/_/id/35062",
+        "stats": {
+          "atBats": 7,
+          "hits": 3,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 2,
+          "strikeouts": 0,
+          "battingAverage": 0.429,
+          "onBasePercentage": 0.556,
+          "sluggingPercentage": 0.429,
+          "ops": 0.984
+        }
+      },
+      {
+        "name": "Jonah Bride",
+        "url": "https://www.espn.com/mlb/player/_/id/3960984",
+        "stats": {
+          "atBats": 6,
+          "hits": 1,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.167,
+          "onBasePercentage": 0.167,
+          "sluggingPercentage": 0.333,
+          "ops": 0.5
+        }
+      },
+      {
+        "name": "Willi Castro",
+        "url": "https://www.espn.com/mlb/player/_/id/34230",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Kody Clemens",
+        "url": "https://www.espn.com/mlb/player/_/id/41311",
+        "stats": {
+          "atBats": 2,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 1,
+          "strikeouts": 1,
+          "battingAverage": 0.5,
+          "onBasePercentage": 0.667,
+          "sluggingPercentage": 0.5,
+          "ops": 1.167
+        }
+      },
+      {
+        "name": "Carlos Correa",
+        "url": "https://www.espn.com/mlb/player/_/id/32653",
+        "stats": {
+          "atBats": 5,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 2,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.2,
+          "onBasePercentage": 0.2,
+          "sluggingPercentage": 0.2,
+          "ops": 0.4
+        }
+      },
+      {
+        "name": "Ty France",
+        "url": "https://www.espn.com/mlb/player/_/id/35591",
+        "stats": {
+          "atBats": 6,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 1,
+          "homeRuns": 1,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 1.167,
+          "ops": 1.5
+        }
+      },
+      {
+        "name": "Christian Vazquez",
+        "url": "https://www.espn.com/mlb/player/_/id/31389",
+        "stats": {
+          "atBats": 1,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 0,
+          "ops": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695495",
+    "pitcherName": "Joe Ryan",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/42450",
+    "pitcherTeam": "twins",
+    "opponentTeam": "giants",
+    "pitcherSeasonStats": {
+      "record": "2-2",
+      "recordRank": "Tied-75th",
+      "era": 2.93,
+      "strikeouts": 47,
+      "strikeoutsRank": "Tied-22nd",
+      "whip": 0.9
+    },
+    "playerStats": [
+      {
+        "name": "Willy Adames",
+        "url": "https://www.espn.com/mlb/player/_/id/33675",
+        "stats": {
+          "atBats": 6,
+          "hits": 1,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0.167,
+          "onBasePercentage": 0.167,
+          "sluggingPercentage": 0.333,
+          "ops": 0.5
+        }
+      },
+      {
+        "name": "Patrick Bailey",
+        "url": "https://www.espn.com/mlb/player/_/id/4345843",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Matt Chapman",
+        "url": "https://www.espn.com/mlb/player/_/id/33857",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 2,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 0,
+          "ops": 0.5
+        }
+      },
+      {
+        "name": "Wilmer Flores",
+        "url": "https://www.espn.com/mlb/player/_/id/30627",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0,
+          "ops": 0.333
+        }
+      },
+      {
+        "name": "Heliot Ramos",
+        "url": "https://www.espn.com/mlb/player/_/id/39642",
+        "stats": {
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.333,
+          "ops": 0.667
+        }
+      },
+      {
+        "name": "LaMonte Wade Jr.",
+        "url": "https://www.espn.com/mlb/player/_/id/37798",
+        "stats": {
+          "atBats": 5,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.4,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.4,
+          "ops": 0.733
+        }
+      },
+      {
+        "name": "Brett Wisely",
+        "url": "https://www.espn.com/mlb/player/_/id/4997597",
+        "stats": {
+          "atBats": 4,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 1,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.5,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 1,
+          "ops": 1.5
+        }
+      },
+      {
+        "name": "Mike Yastrzemski",
+        "url": "https://www.espn.com/mlb/player/_/id/33341",
+        "stats": {
+          "atBats": 7,
+          "hits": 3,
+          "doubles": 2,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0.429,
+          "onBasePercentage": 0.429,
+          "sluggingPercentage": 0.714,
+          "ops": 1.143
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695496",
+    "pitcherName": "Stephen Kolek",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/5190073",
+    "pitcherTeam": "padres",
+    "opponentTeam": "rockies",
+    "pitcherSeasonStats": {
+      "record": "1-0",
+      "recordRank": "150+",
+      "era": 0,
+      "strikeouts": 4,
+      "strikeoutsRank": "150+",
+      "whip": 1.13
+    },
+    "playerStats": [
+      {
+        "name": "Jordan Beck",
+        "url": "https://www.espn.com/mlb/player/_/id/4619460",
+        "stats": {
+          "atBats": 1,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 1,
+          "onBasePercentage": 1,
+          "sluggingPercentage": 1,
+          "ops": 2
+        }
+      },
+      {
+        "name": "Sean Bouchard",
+        "url": "https://www.espn.com/mlb/player/_/id/41989",
+        "stats": {
+          "atBats": 0,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 1,
+          "sluggingPercentage": 0,
+          "ops": 1
+        }
+      },
+      {
+        "name": "Brenton Doyle",
+        "url": "https://www.espn.com/mlb/player/_/id/42462",
+        "stats": {
+          "atBats": 2,
+          "hits": 2,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 1,
+          "onBasePercentage": 1,
+          "sluggingPercentage": 1.5,
+          "ops": 2.5
+        }
+      },
+      {
+        "name": "Ryan McMahon",
+        "url": "https://www.espn.com/mlb/player/_/id/33247",
+        "stats": {
+          "atBats": 1,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Jacob Stallings",
+        "url": "https://www.espn.com/mlb/player/_/id/34089",
+        "stats": {
+          "atBats": 1,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695496",
+    "pitcherName": "Bradley Blalock",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/4720860",
+    "pitcherTeam": "rockies",
+    "opponentTeam": "padres",
+    "pitcherSeasonStats": {
+      "record": "0-1",
+      "recordRank": "150+",
+      "era": 8.03,
+      "strikeouts": 7,
+      "strikeoutsRank": "150+",
+      "whip": 1.46
+    },
+    "playerStats": [
+      {
+        "name": "Luis Arraez",
+        "url": "https://www.espn.com/mlb/player/_/id/39572",
+        "stats": {
+          "atBats": 4,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Xander Bogaerts",
+        "url": "https://www.espn.com/mlb/player/_/id/31606",
+        "stats": {
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.333,
+          "ops": 0.667
+        }
+      },
+      {
+        "name": "Jake Cronenworth",
+        "url": "https://www.espn.com/mlb/player/_/id/36364",
+        "stats": {
+          "atBats": 2,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 0.5,
+          "onBasePercentage": 0.667,
+          "sluggingPercentage": 0.5,
+          "ops": 1.167
+        }
+      },
+      {
+        "name": "Manny Machado",
+        "url": "https://www.espn.com/mlb/player/_/id/31097",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Jackson Merrill",
+        "url": "https://www.espn.com/mlb/player/_/id/4872691",
+        "stats": {
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.333,
+          "ops": 0.667
+        }
+      },
+      {
+        "name": "Tyler Wade",
+        "url": "https://www.espn.com/mlb/player/_/id/33878",
+        "stats": {
+          "atBats": 1,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 0,
+          "ops": 0.5
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695498",
+    "pitcherName": "Dustin May",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/40937",
+    "pitcherTeam": "dodgers",
+    "opponentTeam": "diamondbacks",
+    "pitcherSeasonStats": {
+      "record": "1-2",
+      "recordRank": "150+",
+      "era": 4.36,
+      "strikeouts": 28,
+      "strikeoutsRank": "Tied-106th",
+      "whip": 1.24
+    },
+    "playerStats": [
+      {
+        "name": "Corbin Carroll",
+        "url": "https://www.espn.com/mlb/player/_/id/42404",
+        "stats": {
+          "atBats": 8,
+          "hits": 2,
+          "doubles": 2,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 3,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.25,
+          "onBasePercentage": 0.25,
+          "sluggingPercentage": 0.5,
+          "ops": 0.75
+        }
+      },
+      {
+        "name": "Lourdes Gurriel Jr.",
+        "url": "https://www.espn.com/mlb/player/_/id/36040",
+        "stats": {
+          "atBats": 6,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Garrett Hampson",
+        "url": "https://www.espn.com/mlb/player/_/id/39899",
+        "stats": {
+          "atBats": 8,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 3,
+          "battingAverage": 0.125,
+          "onBasePercentage": 0.125,
+          "sluggingPercentage": 0.125,
+          "ops": 0.25
+        }
+      },
+      {
+        "name": "Ketel Marte",
+        "url": "https://www.espn.com/mlb/player/_/id/32512",
+        "stats": {
+          "atBats": 7,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0.143,
+          "onBasePercentage": 0.143,
+          "sluggingPercentage": 0.143,
+          "ops": 0.286
+        }
+      },
+      {
+        "name": "Gabriel Moreno",
+        "url": "https://www.espn.com/mlb/player/_/id/42464",
+        "stats": {
+          "atBats": 5,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.2,
+          "onBasePercentage": 0.2,
+          "sluggingPercentage": 0.2,
+          "ops": 0.4
+        }
+      },
+      {
+        "name": "Josh Naylor",
+        "url": "https://www.espn.com/mlb/player/_/id/35066",
+        "stats": {
+          "atBats": 8,
+          "hits": 3,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 3,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.375,
+          "onBasePercentage": 0.375,
+          "sluggingPercentage": 0.5,
+          "ops": 0.875
+        }
+      },
+      {
+        "name": "Geraldo Perdomo",
+        "url": "https://www.espn.com/mlb/player/_/id/41355",
+        "stats": {
+          "atBats": 4,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 2,
+          "strikeouts": 2,
+          "battingAverage": 0.25,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 0.25,
+          "ops": 0.75
+        }
+      },
+      {
+        "name": "Alek Thomas",
+        "url": "https://www.espn.com/mlb/player/_/id/41215",
+        "stats": {
+          "atBats": 5,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0.167,
+          "sluggingPercentage": 0,
+          "ops": 0.167
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695498",
+    "pitcherName": "Corbin Burnes",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/39878",
+    "pitcherTeam": "diamondbacks",
+    "opponentTeam": "dodgers",
+    "pitcherSeasonStats": {
+      "record": "1-1",
+      "recordRank": "150+",
+      "era": 3.58,
+      "strikeouts": 28,
+      "strikeoutsRank": "Tied-106th",
+      "whip": 1.38
+    },
+    "playerStats": [
+      {
+        "name": "Austin Barnes",
+        "url": "https://www.espn.com/mlb/player/_/id/32856",
+        "stats": {
+          "atBats": 4,
+          "hits": 3,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.75,
+          "onBasePercentage": 0.75,
+          "sluggingPercentage": 0.75,
+          "ops": 1.5
+        }
+      },
+      {
+        "name": "Mookie Betts",
+        "url": "https://www.espn.com/mlb/player/_/id/33039",
+        "stats": {
+          "atBats": 9,
+          "hits": 3,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.4,
+          "sluggingPercentage": 0.444,
+          "ops": 0.844
+        }
+      },
+      {
+        "name": "Michael Conforto",
+        "url": "https://www.espn.com/mlb/player/_/id/33711",
+        "stats": {
+          "atBats": 11,
+          "hits": 1,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 4,
+          "battingAverage": 0.091,
+          "onBasePercentage": 0.083,
+          "sluggingPercentage": 0.182,
+          "ops": 0.265
+        }
+      },
+      {
+        "name": "Freddie Freeman",
+        "url": "https://www.espn.com/mlb/player/_/id/30193",
+        "stats": {
+          "atBats": 11,
+          "hits": 3,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 2,
+          "walks": 4,
+          "strikeouts": 4,
+          "battingAverage": 0.273,
+          "onBasePercentage": 0.467,
+          "sluggingPercentage": 0.273,
+          "ops": 0.739
+        }
+      },
+      {
+        "name": "Enrique Hernandez",
+        "url": "https://www.espn.com/mlb/player/_/id/31358",
+        "stats": {
+          "atBats": 8,
+          "hits": 2,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 0.25,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.375,
+          "ops": 0.708
+        }
+      },
+      {
+        "name": "Max Muncy",
+        "url": "https://www.espn.com/mlb/player/_/id/33303",
+        "stats": {
+          "atBats": 11,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 3,
+          "strikeouts": 3,
+          "battingAverage": 0,
+          "onBasePercentage": 0.214,
+          "sluggingPercentage": 0,
+          "ops": 0.214
+        }
+      },
+      {
+        "name": "Shohei Ohtani",
+        "url": "https://www.espn.com/mlb/player/_/id/39832",
+        "stats": {
+          "atBats": 6,
+          "hits": 3,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 1,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.5,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 1,
+          "ops": 1.5
+        }
+      },
+      {
+        "name": "James Outman",
+        "url": "https://www.espn.com/mlb/player/_/id/41802",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Miguel Rojas",
+        "url": "https://www.espn.com/mlb/player/_/id/30791",
+        "stats": {
+          "atBats": 9,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 4,
+          "battingAverage": 0.222,
+          "onBasePercentage": 0.222,
+          "sluggingPercentage": 0.222,
+          "ops": 0.444
+        }
+      },
+      {
+        "name": "Will Smith",
+        "url": "https://www.espn.com/mlb/player/_/id/38309",
+        "stats": {
+          "atBats": 11,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 4,
+          "battingAverage": 0.091,
+          "onBasePercentage": 0.091,
+          "sluggingPercentage": 0.091,
+          "ops": 0.182
+        }
+      },
+      {
+        "name": "Chris Taylor",
+        "url": "https://www.espn.com/mlb/player/_/id/32900",
+        "stats": {
+          "atBats": 5,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 2,
+          "strikeouts": 3,
+          "battingAverage": 0,
+          "onBasePercentage": 0.286,
+          "sluggingPercentage": 0,
+          "ops": 0.286
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695497",
+    "pitcherName": "Kyle Gibson",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/31053",
+    "pitcherTeam": "orioles",
+    "opponentTeam": "angels",
+    "pitcherSeasonStats": {
+      "record": "0-1",
+      "recordRank": "150+",
+      "era": 14.09,
+      "strikeouts": 5,
+      "strikeoutsRank": "150+",
+      "whip": 2.48
+    },
+    "playerStats": [
+      {
+        "name": "Jo Adell",
+        "url": "https://www.espn.com/mlb/player/_/id/40854",
+        "stats": {
+          "atBats": 5,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.2,
+          "onBasePercentage": 0.2,
+          "sluggingPercentage": 0.2,
+          "ops": 0.4
+        }
+      },
+      {
+        "name": "Tim Anderson",
+        "url": "https://www.espn.com/mlb/player/_/id/33184",
+        "stats": {
+          "atBats": 28,
+          "hits": 8,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 1,
+          "rbi": 2,
+          "walks": 0,
+          "strikeouts": 6,
+          "battingAverage": 0.286,
+          "onBasePercentage": 0.286,
+          "sluggingPercentage": 0.429,
+          "ops": 0.714
+        }
+      },
+      {
+        "name": "Travis d'Arnaud",
+        "url": "https://www.espn.com/mlb/player/_/id/29951",
+        "stats": {
+          "atBats": 21,
+          "hits": 7,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 2,
+          "walks": 2,
+          "strikeouts": 4,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.391,
+          "sluggingPercentage": 0.381,
+          "ops": 0.772
+        }
+      },
+      {
+        "name": "Yoan Moncada",
+        "url": "https://www.espn.com/mlb/player/_/id/33984",
+        "stats": {
+          "atBats": 22,
+          "hits": 8,
+          "doubles": 3,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 7,
+          "battingAverage": 0.364,
+          "onBasePercentage": 0.364,
+          "sluggingPercentage": 0.5,
+          "ops": 0.864
+        }
+      },
+      {
+        "name": "Kevin Newman",
+        "url": "https://www.espn.com/mlb/player/_/id/35022",
+        "stats": {
+          "atBats": 8,
+          "hits": 2,
+          "doubles": 1,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 3,
+          "walks": 0,
+          "strikeouts": 4,
+          "battingAverage": 0.25,
+          "onBasePercentage": 0.222,
+          "sluggingPercentage": 0.375,
+          "ops": 0.597
+        }
+      },
+      {
+        "name": "Logan O'Hoppe",
+        "url": "https://www.espn.com/mlb/player/_/id/42047",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Luis Rengifo",
+        "url": "https://www.espn.com/mlb/player/_/id/37237",
+        "stats": {
+          "atBats": 7,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 1,
+          "rbi": 2,
+          "walks": 1,
+          "strikeouts": 1,
+          "battingAverage": 0.286,
+          "onBasePercentage": 0.375,
+          "sluggingPercentage": 0.714,
+          "ops": 1.089
+        }
+      },
+      {
+        "name": "Nolan Schanuel",
+        "url": "https://www.espn.com/mlb/player/_/id/4739755",
+        "stats": {
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.333,
+          "ops": 0.667
+        }
+      },
+      {
+        "name": "Jorge Soler",
+        "url": "https://www.espn.com/mlb/player/_/id/32558",
+        "stats": {
+          "atBats": 23,
+          "hits": 2,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 2,
+          "rbi": 3,
+          "walks": 7,
+          "strikeouts": 11,
+          "battingAverage": 0.087,
+          "onBasePercentage": 0.3,
+          "sluggingPercentage": 0.348,
+          "ops": 0.648
+        }
+      },
+      {
+        "name": "Taylor Ward",
+        "url": "https://www.espn.com/mlb/player/_/id/34923",
+        "stats": {
+          "atBats": 4,
+          "hits": 3,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 0.75,
+          "onBasePercentage": 0.8,
+          "sluggingPercentage": 0.75,
+          "ops": 1.55
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695497",
+    "pitcherName": "Jack Kochanowicz",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/4917819",
+    "pitcherTeam": "angels",
+    "opponentTeam": "orioles",
+    "pitcherSeasonStats": {
+      "record": "1-5",
+      "recordRank": "150+",
+      "era": 5.79,
+      "strikeouts": 20,
+      "strikeoutsRank": "150+",
+      "whip": 1.5
+    },
+    "playerStats": [
+      {
+        "name": "Ramon Laureano",
+        "url": "https://www.espn.com/mlb/player/_/id/35142",
+        "stats": {
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 1,
+          "rbi": 1,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 1.333,
+          "ops": 1.667
+        }
+      }
+    ]
+  },
+  {
+    "gameId": "401695500",
+    "pitcherName": "Bowden Francis",
+    "pitcherUrl": "https://www.espn.com/mlb/player/_/id/4734325",
+    "pitcherTeam": "blue",
+    "opponentTeam": "jays",
+    "pitcherSeasonStats": {
+      "record": "2-5",
+      "recordRank": "Tied-75th",
+      "era": 5.66,
+      "strikeouts": 25,
+      "strikeoutsRank": "Tied-127th",
+      "whip": 1.37
+    },
+    "playerStats": [
+      {
+        "name": "Randy Arozarena",
+        "url": "https://www.espn.com/mlb/player/_/id/36488",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0,
+          "ops": 0.333
+        }
+      },
+      {
+        "name": "J.P. Crawford",
+        "url": "https://www.espn.com/mlb/player/_/id/33210",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Mitch Garver",
+        "url": "https://www.espn.com/mlb/player/_/id/33667",
+        "stats": {
+          "atBats": 0,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 1,
+          "sluggingPercentage": 0,
+          "ops": 1
+        }
+      },
+      {
+        "name": "Miles Mastrobuoni",
+        "url": "https://www.espn.com/mlb/player/_/id/40900",
+        "stats": {
+          "atBats": 2,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 1,
+          "battingAverage": 0.5,
+          "onBasePercentage": 0.5,
+          "sluggingPercentage": 0.5,
+          "ops": 1
+        }
+      },
+      {
+        "name": "Jorge Polanco",
+        "url": "https://www.espn.com/mlb/player/_/id/32525",
+        "stats": {
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.333,
+          "ops": 0.667
+        }
+      },
+      {
+        "name": "Cal Raleigh",
+        "url": "https://www.espn.com/mlb/player/_/id/41292",
+        "stats": {
+          "atBats": 3,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 2,
+          "battingAverage": 0.333,
+          "onBasePercentage": 0.333,
+          "sluggingPercentage": 0.333,
+          "ops": 0.667
+        }
+      },
+      {
+        "name": "Julio Rodriguez",
+        "url": "https://www.espn.com/mlb/player/_/id/41044",
+        "stats": {
+          "atBats": 3,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      },
+      {
+        "name": "Donovan Solano",
+        "url": "https://www.espn.com/mlb/player/_/id/29703",
+        "stats": {
+          "atBats": 1,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 1,
+          "onBasePercentage": 1,
+          "sluggingPercentage": 1,
+          "ops": 2
+        }
+      },
+      {
+        "name": "Leody Taveras",
+        "url": "https://www.espn.com/mlb/player/_/id/34951",
+        "stats": {
+          "atBats": 4,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0.25,
+          "onBasePercentage": 0.25,
+          "sluggingPercentage": 0.25,
+          "ops": 0.5
+        }
+      },
+      {
+        "name": "Rowdy Tellez",
+        "url": "https://www.espn.com/mlb/player/_/id/34287",
+        "stats": {
+          "atBats": 1,
+          "hits": 1,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 1,
+          "rbi": 1,
+          "walks": 1,
+          "strikeouts": 0,
+          "battingAverage": 1,
+          "onBasePercentage": 1,
+          "sluggingPercentage": 4,
+          "ops": 5
+        }
+      },
+      {
+        "name": "Ben Williamson",
+        "url": "https://www.espn.com/mlb/player/_/id/4626239",
+        "stats": {
+          "atBats": 2,
+          "hits": 0,
+          "doubles": 0,
+          "triples": 0,
+          "homeRuns": 0,
+          "rbi": 0,
+          "walks": 0,
+          "strikeouts": 0,
+          "battingAverage": 0,
+          "onBasePercentage": 0,
+          "sluggingPercentage": 0,
+          "ops": 0
+        }
+      }
+    ]
+  }
+]
