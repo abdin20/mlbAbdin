@@ -289,18 +289,18 @@
                     ${(() => {
                       if (!pitcherObj) {
                         return `
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
+                          <td data-label="AB">N/A</td>
+                          <td data-label="H">N/A</td>
+                          <td data-label="BB">N/A</td>
+                          <td data-label="K">N/A</td>
+                          <td data-label="2B">N/A</td>
+                          <td data-label="3B">N/A</td>
+                          <td data-label="HR">N/A</td>
+                          <td data-label="RBI">N/A</td>
+                          <td data-label="AVG">N/A</td>
+                          <td data-label="OBP">N/A</td>
+                          <td data-label="SLG">N/A</td>
+                          <td data-label="OPS">N/A</td>
                         `;
                       }
                       const playerVsPitcher = pitcherObj.playerStats.find(
@@ -311,33 +311,33 @@
                       if (playerVsPitcher) {
                         const s = playerVsPitcher.stats;
                         return `
-                          <td>${s.atBats}</td>
-                          <td>${s.hits}</td>
-                          <td>${s.walks}</td>
-                          <td>${s.strikeouts}</td>
-                          <td>${s.doubles}</td>
-                          <td>${s.triples}</td>
-                          <td>${s.homeRuns}</td>
-                          <td>${s.rbi}</td>
-                          <td>${s.battingAverage}</td>
-                          <td>${s.onBasePercentage}</td>
-                          <td>${s.sluggingPercentage}</td>
-                          <td>${s.ops}</td>
+                          <td data-label="AB">${s.atBats}</td>
+                          <td data-label="H">${s.hits}</td>
+                          <td data-label="BB">${s.walks}</td>
+                          <td data-label="K">${s.strikeouts}</td>
+                          <td data-label="2B">${s.doubles}</td>
+                          <td data-label="3B">${s.triples}</td>
+                          <td data-label="HR">${s.homeRuns}</td>
+                          <td data-label="RBI">${s.rbi}</td>
+                          <td data-label="AVG">${s.battingAverage}</td>
+                          <td data-label="OBP">${s.onBasePercentage}</td>
+                          <td data-label="SLG">${s.sluggingPercentage}</td>
+                          <td data-label="OPS">${s.ops}</td>
                         `;
                       } else {
                         return `
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
-                          <td>N/A</td>
+                          <td data-label="AB">N/A</td>
+                          <td data-label="H">N/A</td>
+                          <td data-label="BB">N/A</td>
+                          <td data-label="K">N/A</td>
+                          <td data-label="2B">N/A</td>
+                          <td data-label="3B">N/A</td>
+                          <td data-label="HR">N/A</td>
+                          <td data-label="RBI">N/A</td>
+                          <td data-label="AVG">N/A</td>
+                          <td data-label="OBP">N/A</td>
+                          <td data-label="SLG">N/A</td>
+                          <td data-label="OPS">N/A</td>
                         `;
                       }
                     })()}

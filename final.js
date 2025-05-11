@@ -335,7 +335,7 @@ async function main() {
     const getTodaysMatches = require('./fetchPlayingGames');
     const processGames = require('./scrapePitcherStats');
 
-getTodaysMatches().then(() => {
+await getTodaysMatches().then(() => {
     console.log("Fetching completed!");
 }).catch(error => {
     console.error("Error occurred:", error.message);

@@ -193,3 +193,46 @@ h1 {
 .player-vs-pitcher td {
   background: #f7f7f7;
 }
+
+@media (max-width: 1250px) {
+  .player-vs-pitcher table {
+    display: block;
+    width: 100%;
+  }
+
+  .player-vs-pitcher thead {
+    display: none;
+  }
+
+  .player-vs-pitcher tbody {
+    display: block;
+    width: 100%;
+  }
+
+  .player-vs-pitcher tr {
+    display: block;
+    width: 100%;
+  }
+
+  .player-vs-pitcher td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    background: #f7f7f7;
+  }
+
+  .player-vs-pitcher td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    margin-right: 10px;
+    color: #555;
+  }
+
+  .player-vs-pitcher td:last-child {
+    border-bottom: none;
+  }
+}
