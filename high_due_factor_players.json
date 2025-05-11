@@ -1,26 +1,5 @@
 [
   {
-    "name": "Graham Pauley",
-    "recentHits": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      1,
-      3,
-      0,
-      1,
-      2
-    ],
-    "dueFactor2": 75,
-    "Occurences with 2 no hitters": 4,
-    "dueFactor3": 100,
-    "Occurences with 3 no hitters": 1,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/4622931",
-    "Team": "mia"
-  },
-  {
     "name": "Rafael Marchan",
     "recentHits": [
       0,
@@ -33,8 +12,8 @@
       1,
       0
     ],
-    "dueFactor2": 50,
-    "Occurences with 2 no hitters": 2,
+    "dueFactor2": 33.33333333333333,
+    "Occurences with 2 no hitters": 3,
     "dueFactor3": 100,
     "Occurences with 3 no hitters": 1,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/40816",
@@ -54,8 +33,8 @@
       0,
       1
     ],
-    "dueFactor2": 57.14285714285714,
-    "Occurences with 2 no hitters": 7,
+    "dueFactor2": 50,
+    "Occurences with 2 no hitters": 8,
     "dueFactor3": 66.66666666666666,
     "Occurences with 3 no hitters": 3,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/4990055",
@@ -75,12 +54,33 @@
       1,
       2
     ],
-    "dueFactor2": 40,
-    "Occurences with 2 no hitters": 5,
+    "dueFactor2": 33.33333333333333,
+    "Occurences with 2 no hitters": 6,
     "dueFactor3": 66.66666666666666,
     "Occurences with 3 no hitters": 3,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/33667",
     "Team": "sea"
+  },
+  {
+    "name": "Josh Bell",
+    "recentHits": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "dueFactor2": 62.5,
+    "Occurences with 2 no hitters": 8,
+    "dueFactor3": 50,
+    "Occurences with 3 no hitters": 2,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32517",
+    "Team": "was"
   },
   {
     "name": "Nathaniel Lowe",
@@ -96,8 +96,8 @@
       1,
       1
     ],
-    "dueFactor2": 60,
-    "Occurences with 2 no hitters": 5,
+    "dueFactor2": 50,
+    "Occurences with 2 no hitters": 6,
     "dueFactor3": 50,
     "Occurences with 3 no hitters": 2,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/40538",
@@ -117,33 +117,12 @@
       1,
       1
     ],
-    "dueFactor2": 60,
-    "Occurences with 2 no hitters": 5,
+    "dueFactor2": 50,
+    "Occurences with 2 no hitters": 6,
     "dueFactor3": 50,
     "Occurences with 3 no hitters": 2,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/4424742",
     "Team": "chw"
-  },
-  {
-    "name": "Josh Bell",
-    "recentHits": [
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      1,
-      1,
-      0,
-      0
-    ],
-    "dueFactor2": 57.14285714285714,
-    "Occurences with 2 no hitters": 7,
-    "dueFactor3": 50,
-    "Occurences with 3 no hitters": 2,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32517",
-    "Team": "was"
   },
   {
     "name": "Adolis Garcia",
@@ -159,36 +138,15 @@
       0,
       2
     ],
-    "dueFactor2": 37.5,
-    "Occurences with 2 no hitters": 8,
+    "dueFactor2": 44.44444444444444,
+    "Occurences with 2 no hitters": 9,
     "dueFactor3": 50,
     "Occurences with 3 no hitters": 4,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/35537",
     "Team": "tex"
   },
   {
-    "name": "Cedric Mullins",
-    "recentHits": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      1,
-      0,
-      2
-    ],
-    "dueFactor2": 100,
-    "Occurences with 2 no hitters": 2,
-    "dueFactor3": 0,
-    "Occurences with 3 no hitters": 0,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/35578",
-    "Team": "bal"
-  },
-  {
-    "name": "Ozzie Albies",
+    "name": "Graham Pauley",
     "recentHits": [
       0,
       0,
@@ -196,17 +154,17 @@
       0,
       1,
       1,
-      0,
       3,
       0,
-      1
+      1,
+      2
     ],
-    "dueFactor2": 100,
-    "Occurences with 2 no hitters": 1,
-    "dueFactor3": 0,
-    "Occurences with 3 no hitters": 0,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/33783",
-    "Team": "atl"
+    "dueFactor2": 40,
+    "Occurences with 2 no hitters": 5,
+    "dueFactor3": 50,
+    "Occurences with 3 no hitters": 2,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/4622931",
+    "Team": "mia"
   },
   {
     "name": "Ian Happ",
@@ -222,74 +180,11 @@
       2,
       1
     ],
-    "dueFactor2": 100,
-    "Occurences with 2 no hitters": 3,
+    "dueFactor2": 75,
+    "Occurences with 2 no hitters": 4,
     "dueFactor3": 0,
     "Occurences with 3 no hitters": 0,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/34945",
-    "Team": "chc"
-  },
-  {
-    "name": "Sal Frelick",
-    "recentHits": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      2,
-      1,
-      1,
-      0
-    ],
-    "dueFactor2": 100,
-    "Occurences with 2 no hitters": 2,
-    "dueFactor3": 0,
-    "Occurences with 3 no hitters": 0,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/4417795",
-    "Team": "mil"
-  },
-  {
-    "name": "Alan Trejo",
-    "recentHits": [
-      0,
-      0,
-      0,
-      1,
-      1,
-      0,
-      2,
-      0,
-      0,
-      1
-    ],
-    "dueFactor2": 100,
-    "Occurences with 2 no hitters": 1,
-    "dueFactor3": 0,
-    "Occurences with 3 no hitters": 0,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/40572",
-    "Team": "col"
-  },
-  {
-    "name": "Vidal Brujan",
-    "recentHits": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      1,
-      0
-    ],
-    "dueFactor2": 66.66666666666666,
-    "Occurences with 2 no hitters": 3,
-    "dueFactor3": 0,
-    "Occurences with 3 no hitters": 0,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/40462",
     "Team": "chc"
   },
   {
@@ -306,11 +201,32 @@
       1,
       0
     ],
-    "dueFactor2": 50,
-    "Occurences with 2 no hitters": 2,
+    "dueFactor2": 66.66666666666666,
+    "Occurences with 2 no hitters": 3,
     "dueFactor3": 0,
     "Occurences with 3 no hitters": 0,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/4418683",
     "Team": "pit"
+  },
+  {
+    "name": "Alan Trejo",
+    "recentHits": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      2,
+      0,
+      0,
+      1
+    ],
+    "dueFactor2": 50,
+    "Occurences with 2 no hitters": 2,
+    "dueFactor3": 0,
+    "Occurences with 3 no hitters": 0,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/40572",
+    "Team": "col"
   }
 ]

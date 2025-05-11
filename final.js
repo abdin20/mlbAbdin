@@ -3,7 +3,7 @@ const fs = require('fs');
 let highDueFactorPlayers = [];
 let hotStreakPlayers = [];
 const parallelPlayers = 4;
-const parallelBrowsers = 2;
+const parallelBrowsers = 1;
 
 
 
@@ -145,11 +145,11 @@ async function scrapeMLBStats() {
     try {
         await initialize();
         const browser = await puppeteer.launch({
-            headless: "new"
+            headless: false
         });
         const mainPage = await browser.newPage();
         await mainPage.setDefaultNavigationTimeout(0);
-        await mainPage.goto('https://www.espn.com/mlb/players');
+        await mainPage.goto('https://www.espn.com/mlb/players',{waitUntil: 'networkidle2'});
         const rosterUrls = await mainPage.$$eval('.mod-content ul li div[style="float:left;"] a', links => links.map(link => link.href));
         await browser.close();
 
@@ -186,6 +186,8 @@ async function scrapeMLBStats() {
             await browser.close();
         }
         console.log("Done")
+        const processGames = require('./scrapePitcherStats');
+        await processGames();
         process.exit(0);
     } catch (error) {
         console.error('An error occurred:', error.message);
@@ -247,14 +249,20 @@ function predictHitProbability(playerData) {
 
 
 function calculateProbability(hits) {
-    const hitOccurrences2 = hits.slice(2).filter((hit, index, arr) => {
-        if (index < arr.length - 1) {
+    // Create a copy of the array and reverse it so oldest games are first
+    const chronologicalHits = [...hits].reverse();
+
+    // Calculate occurrences for 2-game hit streaks using full dataset
+    const hitOccurrences2 = chronologicalHits.filter((hit, index, arr) => {
+        // Need at least 3 games total: 2 for the streak + 1 to verify what happened next
+        if (index < arr.length - 2) {
             return arr[index] > 0 && arr[index + 1] > 0;
         }
         return false;
     }).length;
 
-    const hitsAfterHitStreak2 = hits.slice(2).filter((hit, index, arr) => {
+    const hitsAfterHitStreak2 = chronologicalHits.filter((hit, index, arr) => {
+        // Need at least 3 games total: 2 for the streak + 1 to verify what happened next
         if (index < arr.length - 2) {
             return arr[index] > 0 && arr[index + 1] > 0 && arr[index + 2] > 0;
         }
@@ -262,17 +270,17 @@ function calculateProbability(hits) {
     }).length;
     const probabilityHiStreak2 = hitOccurrences2 === 0 ? 0 : (hitsAfterHitStreak2 / hitOccurrences2) * 100;
 
-
-
-    // Calculate occurrences after 3 games with a hit
-    const hitOccurrences3 = hits.slice(3).filter((hit, index, arr) => {
-        if (index < arr.length - 2) {
+    // Calculate occurrences for 3-game hit streaks using full dataset
+    const hitOccurrences3 = chronologicalHits.filter((hit, index, arr) => {
+        // Need at least 4 games total: 3 for the streak + 1 to verify what happened next
+        if (index < arr.length - 3) {
             return arr[index] > 0 && arr[index + 1] > 0 && arr[index + 2] > 0;
         }
         return false;
     }).length;
 
-    const hitsAfterHitStreak3 = hits.slice(3).filter((hit, index, arr) => {
+    const hitsAfterHitStreak3 = chronologicalHits.filter((hit, index, arr) => {
+        // Need at least 4 games total: 3 for the streak + 1 to verify what happened next
         if (index < arr.length - 3) {
             return arr[index] > 0 && arr[index + 1] > 0 && arr[index + 2] > 0 && arr[index + 3] > 0;
         }
@@ -281,16 +289,17 @@ function calculateProbability(hits) {
 
     const probabilityHiStreak3 = hitOccurrences3 === 0 ? 0 : (hitsAfterHitStreak3 / hitOccurrences3) * 100;
 
-
-    // Calculate occurrences after 2 games without a hit
-    const occurrences2 = hits.slice(2).filter((hit, index, arr) => {
-        if (index < arr.length - 1) {
+    // Calculate occurrences for 2-game no-hit streaks using full dataset
+    const occurrences2 = chronologicalHits.filter((hit, index, arr) => {
+        // Need at least 3 games total: 2 for the streak + 1 to verify what happened next
+        if (index < arr.length - 2) {
             return arr[index] === 0 && arr[index + 1] === 0;
         }
         return false;
     }).length;
 
-    const hitsAfterStreak2 = hits.slice(2).filter((hit, index, arr) => {
+    const hitsAfterStreak2 = chronologicalHits.filter((hit, index, arr) => {
+        // Need at least 3 games total: 2 for the streak + 1 to verify what happened next
         if (index < arr.length - 2) {
             return arr[index] === 0 && arr[index + 1] === 0 && arr[index + 2] > 0;
         }
@@ -299,15 +308,17 @@ function calculateProbability(hits) {
 
     const probability2 = occurrences2 === 0 ? 0 : (hitsAfterStreak2 / occurrences2) * 100;
 
-    // Calculate occurrences after 3 games without a hit
-    const occurrences3 = hits.slice(3).filter((hit, index, arr) => {
-        if (index < arr.length - 2) {
+    // Calculate occurrences for 3-game no-hit streaks using full dataset
+    const occurrences3 = chronologicalHits.filter((hit, index, arr) => {
+        // Need at least 4 games total: 3 for the streak + 1 to verify what happened next
+        if (index < arr.length - 3) {
             return arr[index] === 0 && arr[index + 1] === 0 && arr[index + 2] === 0;
         }
         return false;
     }).length;
 
-    const hitsAfterStreak3 = hits.slice(3).filter((hit, index, arr) => {
+    const hitsAfterStreak3 = chronologicalHits.filter((hit, index, arr) => {
+        // Need at least 4 games total: 3 for the streak + 1 to verify what happened next
         if (index < arr.length - 3) {
             return arr[index] === 0 && arr[index + 1] === 0 && arr[index + 2] === 0 && arr[index + 3] > 0;
         }
@@ -325,15 +336,13 @@ function calculateProbability(hits) {
         hitStreak2Games: hitOccurrences2,
         hitStreak3: probabilityHiStreak3,
         hitStreak3Games: hitOccurrences3
-
-
     };
 }
 
 
 async function main() {
     const getTodaysMatches = require('./fetchPlayingGames');
-    const processGames = require('./scrapePitcherStats');
+
 
 await getTodaysMatches().then(() => {
     console.log("Fetching completed!");
@@ -342,7 +351,7 @@ await getTodaysMatches().then(() => {
     process.exit(1);
 });
 await scrapeMLBStats();
-await processGames();
+
 }
 
 main();
