@@ -1,10 +1,16 @@
 {
     "mil": "Milwaukee Brewers",
     "cle": "Cleveland Guardians",
+    "min": "Minnesota Twins",
+    "bal": "Baltimore Orioles",
     "bos": "Boston Red Sox",
     "det": "Detroit Tigers",
+    "chw": "Chicago White Sox",
+    "cin": "Cincinnati Reds",
     "stl": "St Louis Cardinals",
     "phi": "Philadelphia Phillies",
+    "tb": "Tampa Bay Rays",
+    "tor": "Toronto Blue Jays",
     "pit": "Pittsburgh Pirates",
     "nym": "New York Mets",
     "wsh": "Washington Nationals",
@@ -20,5 +26,7 @@
     "nyy": "New York Yankees",
     "sea": "Seattle Mariners",
     "ari": "Arizona Diamondbacks",
-    "sf": "San Francisco Giants"
+    "sf": "San Francisco Giants",
+    "ath": "Athletics",
+    "lad": "Los Angeles Dodgers"
 }
