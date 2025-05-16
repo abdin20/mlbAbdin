@@ -21,27 +21,6 @@
     "Team": "mia"
   },
   {
-    "name": "Christian Walker",
-    "recentHits": [
-      0,
-      0,
-      0,
-      2,
-      1,
-      2,
-      1,
-      1,
-      1,
-      2
-    ],
-    "dueFactor2": 66.66666666666666,
-    "Occurences with 2 no hitters": 6,
-    "dueFactor3": 100,
-    "Occurences with 3 no hitters": 1,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32758",
-    "Team": "hou"
-  },
-  {
     "name": "Salvador Perez",
     "recentHits": [
       0,
@@ -63,8 +42,51 @@
     "Team": "kan"
   },
   {
+    "name": "Austin Wynns",
+    "recentHits": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      3,
+      6,
+      0,
+      1
+    ],
+    "dueFactor2": 50,
+    "Occurences with 2 no hitters": 4,
+    "dueFactor3": 100,
+    "Occurences with 3 no hitters": 1,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/35314",
+    "Team": "cin"
+  },
+  {
+    "name": "Seth Brown",
+    "recentHits": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      2,
+      0,
+      0
+    ],
+    "dueFactor2": 50,
+    "Occurences with 2 no hitters": 8,
+    "dueFactor3": 100,
+    "Occurences with 3 no hitters": 3,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/35676",
+    "Team": "ath"
+  },
+  {
     "name": "Ty France",
     "recentHits": [
+      0,
       0,
       0,
       0,
@@ -73,36 +95,14 @@
       2,
       1,
       0,
-      0,
       0
     ],
-    "dueFactor2": 55.55555555555556,
-    "Occurences with 2 no hitters": 9,
-    "dueFactor3": 100,
-    "Occurences with 3 no hitters": 3,
+    "dueFactor2": 50,
+    "Occurences with 2 no hitters": 10,
+    "dueFactor3": 75,
+    "Occurences with 3 no hitters": 4,
     "url": "https://www.espn.com/mlb/player/gamelog/_/id/35591",
     "Team": "min"
-  },
-  {
-    "name": "Nick Allen",
-    "recentHits": [
-      0,
-      0,
-      0,
-      2,
-      0,
-      2,
-      0,
-      0,
-      0,
-      1
-    ],
-    "dueFactor2": 50,
-    "Occurences with 2 no hitters": 4,
-    "dueFactor3": 100,
-    "Occurences with 3 no hitters": 1,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/40338",
-    "Team": "atl"
   },
   {
     "name": "Matt Mervis",
@@ -189,15 +189,15 @@
     "Team": "kan"
   },
   {
-    "name": "Santiago Espinal",
+    "name": "Christian Walker",
     "recentHits": [
       0,
       0,
       0,
-      1,
-      1,
       0,
-      0,
+      2,
+      1,
+      2,
       1,
       1,
       1
@@ -206,8 +206,8 @@
     "Occurences with 2 no hitters": 7,
     "dueFactor3": 50,
     "Occurences with 3 no hitters": 2,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/39924",
-    "Team": "cin"
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/32758",
+    "Team": "hou"
   },
   {
     "name": "Bo Naylor",
@@ -357,27 +357,6 @@
     "Team": "tam"
   },
   {
-    "name": "Tyler O'Neill",
-    "recentHits": [
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      1,
-      0,
-      0
-    ],
-    "dueFactor2": 66.66666666666666,
-    "Occurences with 2 no hitters": 6,
-    "dueFactor3": 0,
-    "Occurences with 3 no hitters": 1,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/34168",
-    "Team": "bal"
-  },
-  {
     "name": "Caleb Durbin",
     "recentHits": [
       0,
@@ -399,23 +378,24 @@
     "Team": "mil"
   },
   {
-    "name": "Evan Carter",
+    "name": "Tyler O'Neill",
     "recentHits": [
       0,
       0,
       0,
-      2,
-      1,
+      0,
+      0,
       1,
       0,
       0,
-      2
+      1,
+      0
     ],
-    "dueFactor2": 50,
-    "Occurences with 2 no hitters": 2,
+    "dueFactor2": 57.14285714285714,
+    "Occurences with 2 no hitters": 7,
     "dueFactor3": 0,
-    "Occurences with 3 no hitters": 0,
-    "url": "https://www.espn.com/mlb/player/gamelog/_/id/4917921",
-    "Team": "tex"
+    "Occurences with 3 no hitters": 2,
+    "url": "https://www.espn.com/mlb/player/gamelog/_/id/34168",
+    "Team": "bal"
   }
 ]
